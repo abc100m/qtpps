@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <HorizontalLayout  name="MidCon"  alpha="0" height="64" width="13">
+    
+    
+    <Button name="leftMoveBtn_normal"     visible="false" tooltip="收起列表栏"
+              normalimage="file='MidRes/player_left_butten.png' source='0,0,13,64'"
+              hotimage="file='MidRes/player_left_butten.png' source='13,0,26,64'"
+              pushedimage="file='MidRes/player_left_butten.png' source='26,0,39,64'"/>
+    <Button name="leftMoveBtn_collapse"    visible="false"  tooltip="展开列表栏"
+              normalimage="file='MidRes/player_left_butten.png' source='39,0,52,64'"
+              hotimage="file='MidRes/player_left_butten.png' source='52,0,65,64'"
+              pushedimage="file='MidRes/player_left_butten.png' source='65,0,78,64'"/>
+
+    <Button name="rightMoveBtn_normal"    visible="false"  tooltip="收起资讯栏"
+              normalimage="file='MidRes/player_right_butten.png' source='0,0,13,64'"
+              hotimage="file='MidRes/player_right_butten.png' source='13,0,26,64'"
+              pushedimage="file='MidRes/player_right_butten.png' source='26,0,39,64'"/>
+
+    <Button name="rightMoveBtn_collapse"   tooltip="展开资讯栏"
+              normalimage="file='MidRes/player_right_butten.png' source='39,0,52,64'"
+              hotimage="file='MidRes/player_right_butten.png' source='52,0,65,64'"
+              pushedimage="file='MidRes/player_right_butten.png' source='65,0,78,64'"/>
+  </HorizontalLayout>
+</Window>
+

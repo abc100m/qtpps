@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="260,400">
+    <VerticalLayout >
+      <HorizontalLayout name="headerlayout" height="16" bkcolor="#FF323232">
+        <Container>
+        <Button name="PowerlistTitle" bordersize="1" textpadding="5,0,0,0" textcolor="#FFC8C8C8" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file=&apos;left_list_title_bg.png&apos; source=&apos;0,0,10,15&apos;" hotimage="file=&apos;left_list_title_bg.png&apos; source=&apos;10,0,20,15&apos;" pushedimage="file=&apos;left_list_title_bg.png&apos; source=&apos;20,0,30,15&apos;" />
+        <Label visible="false" name="titlelabel" width="8" height="6" float="true" pos="97,6,105,12" bkimage="file='lift_tab_select3.png' source='8,0,16,6'" mouse="false"/>
+        </Container>
+        <Label  bkimage="left_list_title_line.png" width="2" />
+        <Button name="ListHeader" text="列表" bordersize="1" width="50" textpadding="5,0,0,0" textcolor="#FFC8C8C8" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;left_list_title_bg.png&apos; source=&apos;0,0,10,15&apos;" hotimage="file=&apos;left_list_title_bg.png&apos; source=&apos;10,0,20,15&apos;" pushedimage="file=&apos;left_list_title_bg.png&apos; source=&apos;20,0,30,15&apos;" />
+        <Label  bkimage="left_list_title_line.png"  width="2" />
+        <Container width="60">
+         <Button name="SortHeader" text="观众" bordersize="1" width="60" textpadding="5,0,0,0" textcolor="#FFC8C8C8" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;left_list_title_bg.png&apos; source=&apos;0,0,10,15&apos;" hotimage="file=&apos;left_list_title_bg.png&apos; source=&apos;10,0,20,15&apos;" pushedimage="file=&apos;left_list_title_bg.png&apos; source=&apos;20,0,30,15&apos;" />
+         <Label visible="false" name="sortlabel" width="8" height="6" float="true" pos="5,6,13,12" bkimage="file='lift_tab_select3.png' source='8,0,16,6'" mouse="false"/>
+        </Container>
+       </HorizontalLayout>
+      <power_list name="PowerlistUI"/>
+     </VerticalLayout >
+     
+</Window>

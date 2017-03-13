@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window >
+  <DownloadContainer height="92" bkcolor="#FF111111">
+    <HorizontalLayout name="layRoot" >
+        <VerticalLayout name="layThumb"  width="70" >
+            <Label name="PicControl" padding="5, 5, 5, 5" width="60" height="80" bkimage="loadingimage_s.png"/>
+        </VerticalLayout>
+        <VerticalLayout name="layIntroduce"  >
+          <HorizontalLayout height="22"padding="0,0,0,2">
+            <Label name="vipicon"  visible="false" width="16" height="16" padding="2,4,2,2" bkimage="vip_icon.png" align="center" />
+            <Label name="usericon" visible="false" width="16" height="16" padding="2,4,2,2" bkimage="user_icon.png" align="center" />
+            <Label name="nickname"  text="江山美人"  textcolor="#ffcbcbcb" padding="0,3,0,0" endellipsis="true" />
+          <Button name="btnClose" visible="false"  width="11" height="11" padding="0,3,5,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;left_list_del.png&apos; source=&apos;0,0,11,11&apos;" hotimage="file=&apos;left_list_del.png&apos; source=&apos;11,0,22,11&apos;" pushedimage="file=&apos;left_list_del.png&apos; source=&apos;22,0,33,11&apos;" />
+          </HorizontalLayout>
+          <HorizontalLayout height="21">
+            <Label name="typeLabel" text="类型: " width="33" textcolor="#ff828282" />
+            <Button name="filmType" text="未知" textcolor="#ffcbcbcb" align="left" mouse="false" padding="0,0,0,5" endellipsis="true" />
+          </HorizontalLayout>
+          <HorizontalLayout height="22">
+            <Label name="lastViewTimeLabel" text="观看到:"  width="45"  textcolor="#00A4A0A0" disabledtextcolor="#FFA7A6AA" />
+            <Label name="lastViewTime"  textcolor="#ffcbcbcb" />
+            <Label name="tip" text="正在播放..." visible="false" textcolor="#ff2379f1" />
+            <Label name="complateTip" text="已看完" visible="false" textcolor="#00A4A0A0" />
+          </HorizontalLayout>
+           
+          <!--<HorizontalLayout height="22">
+            <Button name="btnPlay" width="59" text="继续播放"  textcolor="#ffffffff" normalimage="file='soft_left_button_yellow.png' source='0,0,59,21'" hotimage="file='soft_left_button_yellow.png' source='59,0,118,21'" pushedimage="file='soft_left_button_yellow.png' source='118,0,177,21'" />
+            <Button name="btnNext" visible="false" text="下一集" width="59" padding="5,0,0,0"  textcolor="#ffffffff" normalimage="file='soft_left_button_blue.png' source='0,0,59,21'" hotimage="file='soft_left_button_blue.png' source='59,0,118,21'" pushedimage="file='soft_left_button_blue.png' source='118,0,177,21'" />
+          </HorizontalLayout>-->
+         </VerticalLayout>
+      </HorizontalLayout>
+</DownloadContainer>
+</Window>

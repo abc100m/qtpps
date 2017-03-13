@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <Font name="宋体" size="12" bold="false" italic="false" default="true"/>
+  <Font name="新宋体" size="12" bold="true" italic="false" />
+  <Container padding="15,5,0,0" name="ContainerUI1" text="播放器" bkcolor="#FFe0e0e0" width="390" height="300" inset="2,2,2,2">
+    <Label font="1" name="text" text="播放器" float="true" pos="4,13,0,0" width="50" height="22" />
+    <Label name="LabelUI1" text="" float="true" pos="48,17,0,0" width="337" height="2"
+           bkimage="file= &apos;ConfigRes/RightTitleBar.png&apos; corner='1,1,1,1' xtiled='false' ytiled='true'" />
+
+      <CheckBox name="checkTopWindow" pos="2, 40, 300, 60" float="true" text="精简模式时，自动将窗口置于最顶端。" />
+      <CheckBox name="checkHideMenu"  pos="2, 65, 300, 80" float="true" text="精简模式时，自动隐藏菜单和控制区。" />
+      <!--<CheckBox name="checkHideTvguid" pos="2, 70, 300, 90" float="true" text="精简模式时, 自动隐藏列表和资讯窗口。" />-->
+      <CheckBox name="checkFullScreen" pos="2, 90, 300, 120" float="true" text="全屏幕时，显示控制栏在屏幕边缘。" />
+      <CheckBox name="checkTopProtect" pos="2, 115, 200, 140" float="true" text="禁止屏幕保护程序和电源管理。" />
+      <!--<CheckBox name="checkMsn" pos="205, 105, 400, 130" float="true" text="在MSN上显示正在播放的内容。" />
+      <CheckBox name="checkRecentChannel" pos="2, 130, 200, 150" float="true" text="记忆最近播放的10个频道内容。" />
+      <CheckBox name="checkPos" pos="205, 130, 400, 150" float="true" text="记忆上次播放的位置。" />-->
+      
+      <Container name="ContainerRenderMode" pos="0, 140, 400, 172" float="true" >
+      <Label text="高清渲染" float="true" pos="2, 5, 48, 22" selectedtextcolor="#FFFEFF" textcolor="#FF000000"/>
+      <Label float="true" pos="50, 5, 55, 11" bkimage="file='ConfigRes/flag.png' corner='1,1,1,1'" />
+      <Combo name="Accelerator_ModePlayer" float="true" pos="70, 0, 170, 22" tooltip="请选择渲染格式"
+             normalimage="file='ConfigRes/Combo_nor.bmp' corner='2,2,24,2'"
+             hotimage="file='ConfigRes/Combo_over.bmp' corner='2,2,24,2'"
+             pushedimage="file='ConfigRes/Combo_over.bmp' corner='2,2,24,2'" textpadding="3,1,1,1"  />
+      
+      <Label text="普通渲染" float="true" pos="200, 5, 250, 22" selectedtextcolor="#FFFEFF" textcolor="#FF000000"/>
+      <Label float="true" pos="250, 5, 255, 11" bkimage="file='ConfigRes/flag.png' corner='1,1,1,1'" />  
+      <Combo name="Normal_Accel_ModePlayer" float="true" pos="260, 0, 360, 22" tooltip="请选择渲染格式"
+             normalimage="file='ConfigRes/Combo_nor.bmp' corner='2,2,24,2'"
+             hotimage="file='ConfigRes/Combo_over.bmp' corner='2,2,24,2'"
+             pushedimage="file='ConfigRes/Combo_over.bmp' corner='2,2,24,2'" textpadding="3,1,1,1"  />
+      
+     </Container>
+
+     <Label text="双击播放区域时:" pos="0, 175, 150, 196"     float="true" selectedtextcolor="#FF000000" textcolor="#FF000000"/>
+     <Radio name="radioselFull"    pos="100, 175, 200, 218"   float="true" text="全屏幕"  />
+     <Radio name="radioselSimple"  pos="200, 175, 400, 218"   float="true" text="精简模式" />
+    
+
+  </Container>
+</Window>
+

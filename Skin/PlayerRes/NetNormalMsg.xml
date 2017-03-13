@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="500,66">
+  <Font name="宋体" size="13" bold="false" italic="false" indexfont="13Font"/>
+  <Font name="宋体" size="12" bold="false" italic="false" default="true" indexfont="defaultFont"/>
+  <Font name="宋体" size="12" underline="true" bold="false" italic="false" indexfont="UnderLineFont" />
+  <HorizontalLayout name="HorizontalLayoutUI" bkcolor="#FF000000">
+  </HorizontalLayout>
+</Window>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="360,150" caption="0,0,0,22" roundcorner="4,4">
+  <VerticalLayout name="commondlg" bordersize="1" bkimage="file=&apos;soft_windows_bg.png&apos; corner=&apos;70,15,5,30&apos; " inset="0,0,0,0">
+    <HorizontalLayout bordersize="1" height="28" inset="2,2,2,0">
+      <Button name="dlgname" text="提示" bordersize="1" float="true" pos="55,0,0,0" width="60" height="30" textcolor="#FF9F9F9F" disabledtextcolor="#FFA7A6AA" align="center" />
+      <Control width="320" />
+      <Button name="closebtn" bordersize="1" maxheight="30" maxwidth="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;soft_close.png&apos; source=&apos;0,0,38,30&apos;" hotimage="file=&apos;soft_close.png&apos; source=&apos;38,0,76,30&apos;" pushedimage="file=&apos;soft_close.png&apos; source=&apos;76,0,114,30&apos;" />
+    </HorizontalLayout>
+    <Label name="icon"  float="true" pos="30,50,0, 0" width="52" height="50" bkimage="soft_txt_icon_1.png" />
+    <RichEdit name="ShowTest" width="240" height="30" text="下载还未完成，你确定需要删除吗？" float="true" pos="100,50,0,0"  enabled="false" wantreturn="true" padding="15,0,10,0" textcolor="FF000000" />
+    <Button name="btnOK"  text="确定"    tooltip="" float="true"  pos="100,100,0,0"  height="26" width="67" textcolor="#00FFFEFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;134,0,201,36&apos;" />
+    <Button name="btnCancel"  text="取消" textcolor="#FF000000" tooltip=""         float="true"  pos="180,100,0,0"  height="26" width="67"  disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;134,0,201,36&apos;" />
+  </VerticalLayout>
+</Window>

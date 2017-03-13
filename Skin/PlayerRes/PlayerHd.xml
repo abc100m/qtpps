@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="60,123">
+  <Font name="宋体" size="13" bold="false" italic="false" />
+  <VerticalLayout name="HDMenuVerUI" float="true" pos="0,0,0,0" width="72" height="75" bkimage="file=&apos;PlayerRes/player_hd_bg.png&apos; corner=&apos;10,10,10,10&apos;" bkcolor="#FF000000">
+    <!--<Button name="menu_High"   visable="false" text="" height="22" bordersize="1"  normalimage="file=&apos;PlayerRes/player_hd_h2.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;0,0,60,32&apos;" hotimage="file=&apos;PlayerRes/player_hd_h2.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;60,0,120,32&apos;" pushedimage="file=&apos;PlayerRes/player_hd_h2.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;120,0,180,32&apos;" disabledimage="file=&apos;PlayerRes/player_hd_h2.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;180,0,240,32&apos;"/>
+    <Label  name ="Spliter1"   visable="false" bordersize="1" enabled="false" height="2" bkimage="PlayerRes/player_hd_line.png" />
+    <Button name="menu_Normal" visable="false" text="" height="22" enabled="false" bordersize="1"  normalimage="file=&apos;PlayerRes/player_hd_h3.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;0,0,60,32&apos;" hotimage="file=&apos;PlayerRes/player_hd_h3.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;60,0,120,32&apos;" pushedimage="file=&apos;PlayerRes/player_hd_h3.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;120,0,180,32&apos;" disabledimage="file=&apos;PlayerRes/player_hd_h3.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;180,0,240,32&apos;"/>
+    <Label  name ="Spliter2"   visable="false" bordersize="1" enabled="false" height="2" bkimage="PlayerRes/player_hd_line.png" />
+    <Button name="menu_low"    visable="false" text="" height="22" bordersize="1" normalimage="file=&apos;PlayerRes/player_hd_h1.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;0,0,60,32&apos;" hotimage="file=&apos;PlayerRes/player_hd_h1.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;60,0,120,32&apos;" pushedimage="file=&apos;PlayerRes/player_hd_h1.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;120,0,180,32&apos;" disabledimage="file=&apos;PlayerRes/player_hd_h1.png&apos; dest=&apos;0,0,60,32&apos; source=&apos;180,0,240,32&apos;"/>-->
+  </VerticalLayout>
+</Window>

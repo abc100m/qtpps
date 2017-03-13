@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <PowerListElement  selectedcolor="0xFF000000" height="22" >
+    <VerticalLayout >
+      <HorizontalLayout name="extra_showinfo"  align="bottom" >
+        <HorizontalLayout name="LeftPadding" width="7" />
+        
+        <Button name="btnMostBest" text="最好" width="44"  padding="0,2,0,0" textcolor="#FFCFCFCF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+            normalimage="file='PLRes/normalsort.png' source='0,0,44,18'"
+            hotimage="file='PLRes/normalsort.png' source='44,0,88,18'"
+            pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+        <Button name="btnMostBestUp" visible="false" text="最好" width="45"   textcolor="#FFCFCFCF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+           normalimage="file='PLRes/sortdown.png' source='0,0,45,22'"
+           hotimage="file='PLRes/sortdown.png' source='0,0,45,22'"
+          pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+        <Button name="btnMostBestDown" visible="false" text="最好" width="45"  textcolor="#FFCFCFCF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+           normalimage="file='PLRes/sortup.png' source='0,0,45,22'"
+           hotimage="file='PLRes/sortup.png' source='0,0,45,22'"
+           pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+
+        <HorizontalLayout width="2" />
+        
+        <Button name="btnMostHot" visible="false" text="最热" width="44"  padding="0,2,0,0" textcolor="#FFCFCFCF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+            normalimage="file='PLRes/normalsort.png' source='0,0,44,18'"
+            hotimage="file='PLRes/normalsort.png' source='44,0,88,18'"
+            pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+        <Button name="btnMostHotUp" text="最热" width="45"  textcolor="#FFCFCFCF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+            normalimage="file='PLRes/sortdown.png' source='0,0,45,20'"
+           hotimage="file='PLRes/sortdown.png' source='0,0,45,19'"
+          pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+        <Button name="btnMostHotDown" visible="false" text="最热" width="45"  textcolor="#FFCFCFCF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+            normalimage="file='PLRes/sortup.png' source='0,0,45,20'"
+           hotimage="file='PLRes/sortup.png' source='0,0,45,20'"
+           pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+        
+        <HorizontalLayout width="2" />
+        
+        <Button name="btnMostNew" text="最新" width="44"  textcolor="#FFCFCFCF" padding="0,2,0,0" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+             normalimage="file='PLRes/normalsort.png' source='0,0,44,18'"
+            hotimage="file='PLRes/normalsort.png' source='44,0,88,18'"
+            pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+        <Button name="btnMostNewUp" visible="false" text="最新" width="45"  textcolor="#FFCFCFCF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+              normalimage="file='PLRes/sortdown.png' source='0,0,45,20'"
+           hotimage="file='PLRes/sortdown.png' source='0,0,45,19'"
+          pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+        <Button name="btnMostNewDown" visible="false" text="最新" width="45"  textcolor="#FFCFCFCF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+           normalimage="file='PLRes/sortup.png' source='0,0,45,20'"
+           hotimage="file='PLRes/sortup.png' source='0,0,45,20'"
+           pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+
+        <HorizontalLayout width="2" />
+        
+        <Button name="btnComment" text="名称" width="44"  textcolor="#FFCFCFCF" padding="0,2,0,0" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+             normalimage="file='PLRes/normalsort.png' source='0,0,44,18'"
+            hotimage="file='PLRes/normalsort.png' source='44,0,88,18'"
+            pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+        <Button name="btnCommentUp" visible="false" text="名称" width="45"  textcolor="#FFCFCFCF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+              normalimage="file='PLRes/sortdown.png' source='0,0,45,20'"
+           hotimage="file='PLRes/sortdown.png' source='0,0,45,19'"
+          pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+        <Button name="btnCommentDown" visible="false" text="名称" width="45"  textcolor="#FFCFCFCF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+           normalimage="file='PLRes/sortup.png' source='0,0,45,20'"
+           hotimage="file='PLRes/sortup.png' source='0,0,45,20'"
+           pushedimage="file='PLRes/normalsort.png' source='88,0,132,18'"/>
+
+        <HorizontalLayout width="2" />
+        
+        <Button name="btnFilter" text="筛选" width="44"  textcolor="#FFf4e4de" padding="0,2,0,0" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF"
+             normalimage="file='ChannelFilter/lift_tab_select.png' source='0,0,41,18'"
+            hotimage="file='ChannelFilter/lift_tab_select.png' source='0,0,41,18'"
+            pushedimage="file='ChannelFilter/lift_tab_select.png' source='82,0,123,18'"/>
+        
+      </HorizontalLayout>
+      <HorizontalLayout height="3" />
+      
+    </VerticalLayout>
+
+  </PowerListElement>
+
+</Window>

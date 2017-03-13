@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="260,400">
+  <!--<Font name="微软雅黑" size="12" bold="false" italic="false" default="true" indexfont="skinDefault" />-->
+  <Font name="微软雅黑" size="12" bold="false" italic="false" indexfont="skinTable" />
+  <VerticalLayout name="layRoot"  width="400" height="400">
+        <HorizontalLayout name="layTitle"   height="31" bkimage="left_tabbg.png">
+            <VerticalLayout name="layFavorite" padding="0,0,0,0">
+                <Label name="lblFavorite"  padding="11,6,0,0" text="我的收藏" indexfont="skinTable" bordersize="1" height="20" width="87" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" />
+                <Control bordersize="1"/>
+            </VerticalLayout>
+            <Control bordersize="1" />
+	    <Label name="lblSperator" width="2" padding="5,0,5,0" bkimage="left_list_tab_line.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <VerticalLayout name="layClean" width="60" padding="0,0,10,0">
+                <Control bordersize="1" width="60" />
+              <Button name="btnClean" text="清空" bordersize="1" indexfont="skinTable" height="20" textpadding="20,0,13,2" textcolor="#00C0C0C0" hottextcolor="#00148EFE"  disabledtextcolor="#FFA7A6AA" align="center"width="73" height="25"  normalimage="file='left_list_tab_icon_3_nobg.png' source='0,0,13,13' dest='11,5,24,18'" hotimage="file='left_list_tab_icon_3_nobg.png' source='13,0,26,13'  dest='11,5,24,18'"  pushedimage="file='left_list_tab_icon_3_nobg.png' source='26,0,39,13' dest='11,5,24,18'"/>
+              <Control bordersize="1" width="60" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <FavoriteList name="lstFavorite" bordersize="1" bkcolor="#FF111111" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#ff343434" itemhotbkcolor="#ff181818" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" header="hidden" vscrollbar="true">
+            <ListHeader bordersize="1" />
+        </FavoriteList>
+      <HorizontalLayout name="emptyTip" visible="false" bkcolor="#FF111111">
+        <Label padding="0,53,0,0" height="22" align="center" textcolor="#FF828282" text="还没有收藏的视频" />
+      </HorizontalLayout>
+    
+    </VerticalLayout>
+</Window>

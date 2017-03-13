@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+  <Font name="宋体" size="12" bold="false" italic="false" default="true"/>
+  <Font name="新宋体" size="12" bold="true" italic="false" />
+  <Container name="ContainerUI1"  text="其他" width="500" height="400" inset="2,2,2,2">
+    <Label font="1" name="text" text="其他" float="true" pos="20,15,0,0" width="30" height="22" />
+    <Label name="LabelUI1"      text="" float="true" pos="55,20,0,0" width="346" height="2" bkimage="file= &apos;ConfigRes/RightTitleBar.png&apos; corner='1,1,1,1' xtiled='false' ytiled='true'" />
+
+    <CheckBox name="mutextother" float="true" pos="20,58,0,0" width="273" height="30" text="只允许运行一个PPS网络电视" />
+
+    <Label text="点击关闭按扭时:" float="true" pos="20,150,0,0" width="200" height="30" />
+    <Radio  name="radiominpps" float="true" pos="30,178,0,0" width="273" height="30"  text="最小化到托盘" />
+    <Radio  name="radioexitpps" float="true" pos="30,205,0,0" width="273" height="30"  text="完全退出程序" />
+  </Container>
+</Window>

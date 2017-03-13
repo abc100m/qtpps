@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window >
+  <DownloadContainer height="92"  bkcolor="#FF111111">
+  <HorizontalLayout height="92">
+    <HorizontalLayout width="70" >
+      <PicControl name="picture" width="60" height="80" padding="4, 6, 4, 4" ></PicControl>  
+    </HorizontalLayout>
+    <VerticalLayout>
+      <HorizontalLayout height="22">
+        <Label name="nickname"  bordersize="1" height="22" padding="0,3,0,0" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+        <Button name="btnClose" visible="false" bordersize="1" width="11" height="11" padding="0,5,5,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;left_list_del.png&apos; source=&apos;0,0,11,11&apos;" hotimage="file=&apos;left_list_del.png&apos; source=&apos;11,0,22,11&apos;" pushedimage="file=&apos;left_list_del.png&apos; source=&apos;22,0,33,11&apos;" />
+      </HorizontalLayout>
+      <HorizontalLayout bordersize="1" height="22">
+        <Label text="类型:" bordersize="1" width="35" height="22" textcolor="#00A4A0A0" disabledtextcolor="#FFA7A6AA" />
+        <Label name="FilmType"  bordersize="1" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+      </HorizontalLayout>
+      <HorizontalLayout bordersize="1" height="22">
+        <Label text="影片大小:" bordersize="1" width="65" height="22" textcolor="#00A4A0A0" disabledtextcolor="#FFA7A6AA" />
+        <Label name="filmSize" text="12:12" bordersize="1" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+      </HorizontalLayout>
+      <HorizontalLayout bordersize="1" height="22">
+        <Label name="playstatus" text="正在播放..." visible="false" bordersize="1" height="22" textcolor="#00A4A0A0" disabledtextcolor="#FFA7A6AA" hottextcolor="#ff0000ff"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+  </HorizontalLayout>
+   </DownloadContainer>
+</Window>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Window size="419,284" caption="0,0,0,30" roundcorner="4,4,4,4" >
+  <Font name="微软雅黑" size="12" bold="false" italic="false" default="true" indexfont="DefaultFont" />
+  <Font name="微软雅黑" size="13" bold="false" italic="false"  />
+  <Font name="微软雅黑" size="12" underline="true" bold="false" italic="false" indexfont="UnderLineFont" />
+  <Default name="VScrollBar" value="button1normalimage=&quot;file='LoginRes/scrollbar_w.png' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='LoginRes/scrollbar_w.png' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='LoginRes/scrollbar_w.png' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='LoginRes/scrollbar_w.png' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='LoginRes/scrollbar_w.png' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='LoginRes/scrollbar_w.png' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='LoginRes/scrollbar_w.png' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='LoginRes/scrollbar_w.png' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='LoginRes/scrollbar_w.png' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='LoginRes/scrollbar_w.png' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='LoginRes/scrollbar_w.png' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='LoginRes/scrollbar_w.png' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='LoginRes/scrollbar_w.png' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='LoginRes/scrollbar_w.png' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='LoginRes/scrollbar_w.png' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='LoginRes/scrollbar_w.png' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='LoginRes/scrollbar_w.png' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='LoginRes/scrollbar_w.png' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='LoginRes/scrollbar_w.png' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='LoginRes/scrollbar_w.png' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<VerticalLayout  bkimage="file='LoginRes/soft_login_bg.png' corner='4,30,4,4' " >
+
+      <Label text="用户登录" align="left"  width="85" float="true" pos="67,10,0,0" height="50" textcolor="#bababa"/>
+
+    <Button name="closebtn" width="38" height="30" float="true" pos="381,1,0,0" tooltip="点此退出界面"
+         normalimage="file='soft_close.png' source='0,0,38,30'"
+         hotimage="file='soft_close.png' source='38,0,76,30'"
+         pushedimage="file='soft_close.png' source='76,0,114,30'"/>
+
+
+
+
+      <Label name="logState" text="PPS尚未登录"  width="300" float="true" pos="86,46,0,0" height="20" textcolor="#ff1f86fa" />
+      <CboLoginUsersKind name="accountcombo" width="218" float="true" pos="80,68,0,0" height="31" textcolor="#ffffffff"
+                     normalimage="file=&apos;LoginRes/soft_login_inputpop.png&apos; source=&apos;0,0,71,31&apos; corner=&apos;5,2,38,2&apos; mask=&apos;#FFFF00FF&apos;"
+       hottextcolor="#ffffffff" selectedtextcolor="#ffffffff"
+             hotimage="file=&apos;LoginRes/soft_login_inputpop.png&apos; source=&apos;71,0,142,31&apos; corner=&apos;5,2,38,2&apos; mask=&apos;#FFFF00FF&apos;"
+             pushedimage="file=&apos;LoginRes/soft_login_inputpop.png&apos; source=&apos;142,0,213,31&apos; corner=&apos;5,2,38,2&apos; mask=&apos;#FFFF00FF&apos;" >
+      </CboLoginUsersKind>
+      <Edit name="accountedit" width="139" height="25" float="true"  font="1"
+            pos="118, 71, 0, 0" tooltip="请在这里输入您的账号"/>
+
+    <Label  name="UserIcon2"  width="34" float="true" pos="81,69,0,0" height="28"
+            bkimage="file=&apos;LoginRes/soft_login_name_icon.png&apos; source=&apos;0,0,34,28&apos; corner=&apos;0,0,0,0&apos; mask=&apos;#FFFF00FF&apos;" />
+
+    <Label  name="UserIcon"  width="34" float="true" pos="81,69,0,0" height="28" visible="false"
+          bkimage="file=&apos;LoginRes/soft_login_name_icon.png&apos; source=&apos;34,0,68,28&apos; corner=&apos;0,0,0,0&apos; mask=&apos;#FFFF00FF&apos;" />
+
+
+
+    <Edit name="pwdedit" tooltip="请在这里输入您的密码" bkcolor="#1C1C1C" password="true"  font="1"
+                            nativebkcolor="#ffffffff"   
+            textpadding="40,8,4,3"    width="218"  float="true" pos="80,111,0,0" height="31"    bordersize="1"  textcolor="0x0" 
+ bkimage="file=&apos;loginres/soft_login_password.png&apos; source=&apos;0,0,218,31&apos; corner=&apos;2,2,2,2&apos;"/>
+
+    <Label  name="PwdIcon2"  width="32" float="true" pos="83,112,0,0" height="28"
+               bkimage="file=&apos;LoginRes/soft_login_password_icon.png&apos; source=&apos;0,0,32,28&apos; corner=&apos;0,0,0,0&apos; mask=&apos;#FFFF00FF&apos;" />
+
+    <Label  name="PwdIcon"  width="32" float="true" pos="83,112,0,0" height="28" visible="false"
+          bkimage="file=&apos;LoginRes/soft_login_password_icon.png&apos; source=&apos;34,0,66,28&apos; corner=&apos;0,0,0,0&apos; mask=&apos;#FFFF00FF&apos;" />
+
+    
+    <CheckBox name="autoRemPwd"   width="80"  float="true" pos="80,157,0,0" height="29" text="记住密码" textcolor="0xff848484" />
+         
+
+          <CheckBox name="CheckAutoLogin" width="80"  float="true" pos="204,157,0,0" height="29" text="自动登录"  textcolor="0xff848484"/>
+ 
+
+        <Button name="loginBtn"  width="93"  float="true" pos="79,190,0,0" height="31" tooltip="点击这里登录PPS" textcolor="0xffe0e0e0"
+             normalimage="file='LoginRes/soft_button_1.png' source='0,0,93,31'"
+             hotimage="file='LoginRes/soft_button_1.png' source='93,0,186,31'"
+             pushedimage="file='LoginRes/soft_button_1.png' source='186,0,279,31'" 
+             disabledimage="file='LoginRes/soft_button_1.png' source='279,0,372,31'" />
+
+    <Button name="loginCancel"  width="93"  float="true" pos="205,190,0,0" height="31" tooltip="取消登陆" textcolor="0xffe0e0e0"
+        
+            normalimage="file='LoginRes/soft_button_2.png' source='0,0,93,31'"
+           hotimage="file='LoginRes/soft_button_2.png' source='93,0,186,31'"
+           pushedimage="file='LoginRes/soft_button_2.png' source='186,0,279,31'"
+           disabledimage="file='LoginRes/soft_button_2.png' source='279,0,372,31'" />
+
+    <Button name="btnRegister" text="注册用户"
+            width="60"  float="true" pos="299,65,0,0" height="31"
+             tooltip="如果想注册,请点击此处" hottextcolor="#ffffff" textcolor="#8b8b8b"/>
+    
+    
+        <Button name="btnFindPwd" text="忘记密码" 
+                  width="60"  float="true" pos="299,112,0,0" height="31"
+              tooltip="如果想找回密码,点击此处" hottextcolor="#ffffff" textcolor="#8b8b8b"  />
+
+       
+
+    </VerticalLayout>
+</Window>

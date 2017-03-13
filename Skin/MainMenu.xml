@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="148,240">
+  <Font name="宋体" size="13" bold="false" italic="false" />
+  <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+  <Font name="宋体" size="13" bold="false" italic="false" default="true" />
+  <VerticalLayout name="VerticalLayoutUI1" bkimage="file=&apos;MainMenu_bk.png&apos; corner=&apos;1,1,1,1&apos;" bkcolor="#FF000000">
+    <List padding="0,7,0,0" name="ListUIMain" itemtextcolor="#FF0000ff" itemselectedtextcolor="#FF00ff00" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FFffff00"  itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#20000000" itemhotbkcolor="0" itemhotimage="file='right_menu_main_butten.png' source='150,0,300,27'" header="hidden">
+      <ListHeader />
+      <MListContainerElement name="menu_about" height="25" inset="10,0,0,0">
+        <Button float="true" pos="14,6,0,0"  name="icon" width="16" height="16"  mouse="false" normalimage="right_menu_icon_01.png"  />
+        <Button float="true" pos="35,6,0,0"  name="text" width="50" height="13"  font="2" text="关于" mouse="false" textcolor="#FFb1b1b1" />
+      </MListContainerElement>
+      <ListContainerElement name="menu_sep" height="2" inset="0,0,0,0">
+        <Label name="Sep" bkimage="right_menu_line.png" />
+      </ListContainerElement>
+      <MListContainerElement name="menu_setting" height="25" inset="10,0,0,0">
+        <Button float="true" pos="14,6,0,0"  name="icon" width="16" height="16"  normalimage="right_menu_icon_07.png" />
+        <Button float="true" pos="36,6,0,0"  name="text" width="100" height="13"  font="2" text="设置     Ctrl+S" mouse="false" textcolor="#FFb1b1b1" />
+      </MListContainerElement>
+      <ListContainerElement name="menu_sep" height="2" inset="0,0,0,0">
+        <Label name="Sep" bkimage="right_menu_line.png" />
+      </ListContainerElement>
+      <MListContainerElement name="menu_login" height="25" inset="10,0,0,0">
+        <Button float="true" pos="14,6,0,0"  name="icon" width="16" height="16"  normalimage="right_menu_icon_08.png" />
+        <Button float="true" pos="25,6,0,0"  name="text" width="50" height="13"  font="2" text="登录" mouse="false" textcolor="#FFb1b1b1" />
+      </MListContainerElement>
+      <ListContainerElement name="menu_sep" height="2" inset="0,0,0,0">
+        <Label name="Sep" bkimage="right_menu_line.png" />
+      </ListContainerElement>
+      <MListContainerElement name="menu_exit" height="25" inset="10,0,0,0">
+        <Button float="true" pos="14,6,0,0"  name="icon" width="16" height="16"  normalimage="right_menu_icon_09.png" />
+        <Button float="true" pos="35,6,0,0"  name="text" width="100" height="13"  font="2" text="退出    Alt+F4" mouse="false" textcolor="#FFb1b1b1" />
+      </MListContainerElement>
+
+    </List>
+  </VerticalLayout>
+</Window>

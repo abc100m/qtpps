@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <HorizontalLayout>
+    <Button name="checkrange" text=""  visible="false" float="true" pos="2, 0, 15, 13"
+      normalimage="file='radiopicture.png' source='52,0,65,13'" hotimage="file='radiopicture.png' source='65,0,78,13'"
+      pushedimage="file='radiopicture.png' source='78,0,91,13'" />
+    <Button name="normalrange" text="" visible="true" float="true" pos="2, 0, 15, 13" tooltip=""
+          normalimage="file='radiopicture.png' source='0,0,13,13'" hotimage="file='radiopicture.png' source='13,0,26,13'"
+          pushedimage="file='radiopicture.png' source='39,0,52,13'" />
+    <Button name="textrange" text="" align="left" float="true" pos="17,2, 200, 15" selectedtextcolor="#FF000000" textcolor="#FF000000"/>
+  </HorizontalLayout>
+</Window>

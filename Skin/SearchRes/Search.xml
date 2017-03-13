@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <VerticalLayout  bkcolor="#ff000000">
+    <HorizontalLayout  height="2"/>
+    <SearchContainerKind height="23" name="SearchContainer">
+      <VerticalLayout name="leftSep" width="2"/>
+      <VerticalLayout  bkimage="file=&apos;searchRes/soft_search_bg.png&apos; source=&apos;0,0,232,23&apos; corner=&apos;2,2,2,2&apos;" >
+
+        <HorizontalLayout padding="2,1,2,2"   >
+          <SearchEditKind  name="SearchWord" text="搜视频..."   textpadding="6,0,60,0" textcolor="#FF535353" disabledtextcolor="#FF535353" 
+                  bkcolor="#ffffffff"    nativebkcolor="#ffffffff" 
+                           
+                     
+             />
+        </HorizontalLayout>
+      </VerticalLayout>
+      <Button name="searchCancel" float="true" pos="190,4,0,0" visible="false" width="10" height="10"       normalimage="file='left_list_del.png' source='0,0,10,10'" hotimage="file='left_list_del.png' source='11,0,21,10'" pushedimage="file='left_list_del.png' source='22,0,32,10'"   />
+      <Button name="BtnSearch" height="20" float="true" pos="208,1,0,0" width="45"
+              textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" 
+              normalimage="file=&apos;searchRes/findbtn.png&apos; source=&apos;0,0,45,20&apos;" 
+              
+              hotimage="file=&apos;searchRes/findbtn.png&apos; source=&apos;45,0,90,20&apos;"
+               pushedimage="file=&apos;searchRes/findbtn.png&apos; source=&apos;90,0,135,20&apos;"
+              disabledimage="file=&apos;searchRes/findbtn.png&apos; source=&apos;135,0,180,20&apos;"
+              />
+
+      <SearchComboKind name="SearchItems" float="true"/>
+      <VerticalLayout name="rightSep" width="3"/>
+    </SearchContainerKind>
+
+    <HorizontalLayout  />
+  </VerticalLayout>
+</Window>
+
+

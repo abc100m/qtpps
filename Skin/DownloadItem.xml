@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <DownloadContainer height="92"  bkcolor="#FF111111">
+    <HorizontalLayout >
+      <VerticalLayout width="12" padding="4,4,0,0">
+        <Button name="downloadstate" height="12"  bordersize="0" bkimage="list_download.png" mouse="false"/>
+      </VerticalLayout>
+        <HorizontalLayout width="70">
+          <PicControl name="PicControl" width="60" height="80" padding="4, 6, 4, 4" ></PicControl>
+        </HorizontalLayout>
+        <HorizontalLayout>
+          <VerticalLayout>
+            <HorizontalLayout height="20" >
+              <Label name="nickname" height="20"  padding="0,3,0,2" bordersize="0" textcolor="#FFadadad" endellipsis="true" />
+              <Button name="btnClose" visible="false" bordersize="1" width="11" height="11" padding="0,5,5,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;left_list_del.png&apos; source=&apos;0,0,11,11&apos;" hotimage="file=&apos;left_list_del.png&apos; source=&apos;11,0,22,11&apos;" pushedimage="file=&apos;left_list_del.png&apos; source=&apos;22,0,33,11&apos;" />
+            </HorizontalLayout>
+            <HorizontalLayout height="22">
+              <Label text="类型:" bordersize="1" width="35" height="22" textcolor="#00A4A0A0" disabledtextcolor="#FFA7A6AA" />
+              <Label name="filmType" text="12:12" bordersize="1" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+            </HorizontalLayout>
+           
+            <Container height="18" padding="0,0,5,2">
+              <Progress name="progress" bkimage="file=&apos;left_down_jd_bg1.png&apos; corner=&apos;4,4,4,4&apos;" foreimage="file=&apos;left_down_jd_bg2.png&apos; corner=&apos;4,4,4,4&apos;"
+                   bordersize="1" height="14"  textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" endellipsis="true"  min="0" max="100" value="0" hor="true" />
+              <HorizontalLayout>
+                <Label name="speed" padding="4,1,0,0" bordersize="0" height="17" textcolor="#FFFFFFFF" endellipsis="true" text="等待中..." />
+                <Label name="percent"  padding="4,1,4,0" bordersize="0" height="17" textcolor="#FFFFFFFF" endellipsis="true" align="right"  />
+              </HorizontalLayout>
+            </Container>
+            <HorizontalLayout>
+              <!--<Button name="download_stop" text="开始" bordersize="1" padding="0,2,0,0" width="48" height="22" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;soft_left_button3.png&apos; source=&apos;0,0,48,22&apos;" hotimage="file=&apos;soft_left_button3.png&apos; source=&apos;48,0,96,22&apos;" pushedimage="file=&apos;soft_left_button3.png&apos; source=&apos;96,0,144,22&apos;" />-->
+              <Button name="download_stop" text="开始" bordersize="1" padding="0,2,0,0" width="59" height="21" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='soft_left_button_yellow.png' source='0,0,59,21'" hotimage="file='soft_left_button_yellow.png' source='59,0,118,21'" pushedimage="file='soft_left_button_yellow.png' source='118,0,177,21'" />
+
+            </HorizontalLayout>
+          </VerticalLayout>
+        </HorizontalLayout>
+    </HorizontalLayout >
+  </DownloadContainer>
+</Window>

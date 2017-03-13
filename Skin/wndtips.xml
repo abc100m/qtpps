@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="339,228" bktrans="true">
+  <Font name="宋体" size="12" bold="false" italic="false" default="true" indexfont="default" />
+  <Font name="宋体" size="12" bold="false" italic="false" underline="true" indexfont="defaultunderline" />
+  <Font name="宋体" size="14" bold="true" italic="false" indexfont="title" />
+  <Font name="宋体" size="14" bold="true" italic="false" underline="true" indexfont="titleunderline" />
+  <Font name="Times New Roman" size="14" bold="true" italic="false" underline="false" indexfont="scorefont" />
+  <VerticalLayout bordersize="1" height="339" bkimage="file=&apos;left_list_video_more_bg.png&apos; corner=&apos;5,35,6,60&apos;">
+    <Control bordersize="1" height="3" />
+    <HorizontalLayout name="layToolbar" bordersize="1" height="28" padding="7,0,0,0">
+      <Button name="btnPlay" text="播放" bordersize="1" width="50" height="25" textpadding="23,0,0,0" textcolor="#00828282" disabledtextcolor="#FF4C4C4C" align="left" normalimage="file=&apos;left_list_video_more_icon_1.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;0,0,14,14&apos;" hotimage="file=&apos;left_list_video_more_icon_1.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos;" pushedimage="file=&apos;left_list_video_more_icon_1.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos;" disabledimage="file=&apos;left_list_video_more_icon_1.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;28,0,42,14&apos;" pushedtextcolor="#00148EFE" hottextcolor="#00148EFE" />
+      <Label bordersize="1" width="2" padding="4,0,4,0" bkimage="left_list_tab_line.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+      <Button name="btnFavorite" text="收藏" bordersize="1" width="52" height="25" textpadding="23,0,0,0" textcolor="#00828282" disabledtextcolor="#FF4C4C4C" align="left" normalimage="file=&apos;left_list_video_more_icon_2.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;0,0,14,14&apos;" hotimage="file=&apos;left_list_video_more_icon_2.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos;" pushedimage="file=&apos;left_list_video_more_icon_2.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos;" disabledimage="file=&apos;left_list_video_more_icon_2.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;28,0,42,14&apos;" pushedtextcolor="#00148EFE" hottextcolor="#00148EFE" />
+      <Label bordersize="1" width="2" padding="4,0,4,0" bkimage="left_list_tab_line.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+      <Button name="btnDownload" text="下载" bordersize="1" width="50" height="25" textpadding="21,0,0,0" textcolor="#00828282" disabledtextcolor="#FF4C4C4C" align="left" normalimage="file=&apos;left_list_video_more_icon_3.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;0,0,14,14&apos;" hotimage="file=&apos;left_list_video_more_icon_3.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos;" pushedimage="file=&apos;left_list_video_more_icon_3.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos;" disabledimage="file=&apos;left_list_video_more_icon_3.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;28,0,42,14&apos;" pushedtextcolor="#00148EFE" hottextcolor="#00148EFE" />
+      <Label bordersize="1" width="2" padding="4,0,5,0" bkimage="left_list_tab_line.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+      <Option name="btnShare" text="分享" bordersize="1" width="65" height="25" textpadding="20,0,0,0" textcolor="#00828282" disabledtextcolor="#FF4C4C4C" align="left" normalimage="file=&apos;left_list_video_more_icon_4.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;0,0,14,14&apos; file=&apos;left_list_video_more_icon_6.png&apos; dest=&apos;46,4,60,18&apos; source=&apos;0,0,14,14&apos; " hotimage="file=&apos;left_list_video_more_icon_4.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos; file=&apos;left_list_video_more_icon_6.png&apos; dest=&apos;46,4,60,18&apos; source=&apos;14,0,28,14&apos;" pushedimage="file=&apos;left_list_video_more_icon_4.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos; file=&apos;left_list_video_more_icon_6.png&apos; dest=&apos;46,4,60,18&apos; source=&apos;14,0,28,14&apos;" disabledimage="file=&apos;left_list_video_more_icon_4.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;28,0,42,14&apos; file=&apos;left_list_video_more_icon_6.png&apos; dest=&apos;46,4,60,18&apos; source=&apos;28,0,42,14&apos;" pushedtextcolor="#00148EFE" hottextcolor="#00148EFE" group="btnShare" selectedimage="file=&apos;left_list_video_more_icon_4.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos; file=&apos;left_list_video_more_icon_6.png&apos; dest=&apos;46,4,60,18&apos; source=&apos;14,0,28,14&apos;" selectedtextcolor="#00148EFE" />
+      <Label bordersize="1" width="2" padding="4,0,4,0" bkimage="left_list_tab_line.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+      <Option name="btnComment" text="评论" bordersize="1" width="60" height="25" textpadding="23,0,0,0" textcolor="#00828282" disabledtextcolor="#FF4C4C4C" align="left" normalimage="file=&apos;left_list_video_more_icon_5.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;0,0,14,14&apos; file=&apos;left_list_video_more_icon_6.png&apos; dest=&apos;46,4,60,18&apos; source=&apos;0,0,14,14&apos;" hotimage="file=&apos;left_list_video_more_icon_5.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos; file=&apos;left_list_video_more_icon_6.png&apos; dest=&apos;46,4,60,18&apos; source=&apos;14,0,28,14&apos;" pushedimage="file=&apos;left_list_video_more_icon_5.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos; file=&apos;left_list_video_more_icon_6.png&apos; dest=&apos;46,4,60,18&apos; source=&apos;14,0,28,14&apos;" disabledimage="file=&apos;left_list_video_more_icon_5.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;28,0,42,14&apos; file=&apos;left_list_video_more_icon_6.png&apos; dest=&apos;46,4,60,18&apos; source=&apos;28,0,42,14&apos;" pushedtextcolor="#00148EFE" hottextcolor="#00148EFE" group="btnComment" selectedimage="file=&apos;left_list_video_more_icon_5.png&apos; dest=&apos;6,5,20,19&apos; source=&apos;14,0,28,14&apos; file=&apos;left_list_video_more_icon_6.png&apos; dest=&apos;46,4,60,18&apos; source=&apos;14,0,28,14&apos;" selectedtextcolor="#00148EFE" />
+    </HorizontalLayout>
+    <Control bordersize="1" height="1" bkimage="left_list_tab_bg_line.png" />
+    <HorizontalLayout name="layIntroduce" bordersize="1" width="329" height="161">
+      <HorizontalLayout bordersize="1" width="125">
+        <Control bordersize="1" />
+        <VerticalLayout bordersize="1" width="105">
+          <Button name="lblThumb" bordersize="1" height="140" padding="0,10,0,0" bkimage="loadingimage.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+          <Control bordersize="1" />
+        </VerticalLayout>
+        <Control bordersize="1" />
+      </HorizontalLayout>
+      <VerticalLayout name="layIntroItems" bordersize="1" width="204" height="153" padding="0,6,0,0">
+        <HorizontalLayout bordersize="1" height="26">
+          <Button name="lblTitle" bordersize="1" width="155" height="23" align="left" textcolor="#00CBCBCB" indexfont="title" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+          <Control bordersize="1" />
+          <Label name="lblScore" align="right" indexfont="scorefont" bordersize="1" width="25" height="19"  padding="0,2,0,0" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" align="right"/>
+          <Label text="分" bordersize="1" width="13" height="19" padding="0,4,0,0" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" align="right" />
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="1" height="19">
+          <Label text="导演:" bordersize="1" width="36" textcolor="#00828282" disabledtextcolor="#FFA7A6AA" />
+          <HorizontalLayout bordersize="1">
+            <Button name="lblDirector" bordersize="1" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" align="center" endellipsis="true"/>
+	<Button name="lblTemplate" bordersize="1" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" align="center" endellipsis="true"/>
+            <Control bordersize="1" />
+          </HorizontalLayout>
+          <Label text="年份:" bordersize="1" align="left" width="36" height="18" textcolor="#00828282" disabledtextcolor="#FFA7A6AA" />
+          <Button name="lblYear" bordersize="1" width="30" height="18" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" align="topright" />
+        </HorizontalLayout>
+        <HorizontalLayout name="layArts" bordersize="1" height="18">
+          <Label text="演员:" bordersize="1" width="36" textcolor="#00828282" disabledtextcolor="#FFA7A6AA" />
+ <VerticalLayout  bordersize="1">
+	<HorizontalLayout bordersize="0" width="1000" maxwidth="160" name="layArts" height="14">
+	</HorizontalLayout>	
+ </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="1" height="18">
+          <Label text="类型:" bordersize="1" width="36" textcolor="#00828282" disabledtextcolor="#FFA7A6AA" />
+	<HorizontalLayout bordersize="0" name="layTypes" width="160" childpadding="1">
+	</HorizontalLayout>
+	<Control bordersize="1" height="4"/>
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="1" height="18">
+          <Label text="剧情:" bordersize="1" width="36" textcolor="#00828282" disabledtextcolor="#FFA7A6AA" />
+          <Label name="lblSynopsis0" bordersize="1" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" />
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="1" height="18">
+          <Label name="lblSynopsis1" bordersize="1" height="18" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" />
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="1" height="17">
+          <Label name="lblSynopsis2" bordersize="1" height="17" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="1" width="202" height="12">
+        <Control bordersize="1"/>
+          <Button name="btnMoreSynopsis" text="更多" bordersize="1" width="60" height="12" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" font="0" align="right" />
+        </HorizontalLayout>
+     <Control bordersize="1"/>
+      </VerticalLayout>
+      <Control bordersize="1" width="15" />
+    </HorizontalLayout>
+    <Control bordersize="1" height="2" bkimage="right_menu_line.png" />
+    <VerticalLayout name="layComments" bordersize="1" width="318" height="128" padding="9,8,15,0">
+      <HorizontalLayout bordersize="1" height="21">
+        <Label name="lblCommentFlag0" bordersize="1" height="11" width="11" padding="2,1,3,0"/>
+        <Label name="lblComment0" singleline="true" align="lefttop" bordersize="1" height="21" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+      </HorizontalLayout>
+      <HorizontalLayout bordersize="1" height="21">
+        <Label name="lblCommentFlag1" bordersize="1" height="11" width="11" padding="2,1,3,0"/>
+        <Label name="lblComment1" singleline="true" align="lefttop" bordersize="1" height="21" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+      </HorizontalLayout>
+      <HorizontalLayout bordersize="1" height="14">
+        <Label name="lblCommentFlag2" bordersize="1" height="11" width="11" padding="2,1,3,0"/>
+        <Label name="lblComment2" singleline="true" align="lefttop" height="21" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+      </HorizontalLayout>
+      <HorizontalLayout bordersize="1" height="12">
+        <Control bordersize="1"/>
+        <Button name="btnMoreComments" text="更多" bordersize="1" width="60" height="12" padding="0,0,0,0" textcolor="#00CBCBCB" disabledtextcolor="#FFA7A6AA" font="0" align="right" />
+      </HorizontalLayout>
+    </VerticalLayout>
+    <Control bordersize="1" />
+  </VerticalLayout>
+</Window>

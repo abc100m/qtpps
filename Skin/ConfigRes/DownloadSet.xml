@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+    <Font name="新宋体" size="12" bold="true" italic="false" />
+    <Container text="视频下载" bordersize="1" width="500" height="400" inset="2,2,2,2">
+        <Label name="text" text="视频下载" bordersize="1" float="true" pos="20,15,0,0" width="55" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" />
+        <Label bordersize="1" float="true" pos="80,20,0,0" width="320" height="2" bkimage="file= &apos;ConfigRes/RightTitleBar.png&apos; corner=&apos;1,1,1,1&apos; xtiled=&apos;false&apos; ytiled=&apos;true&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label name="Label" text="下载存放路径:" bordersize="1" float="true" pos="20,50,0,0" width="100" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="editdownloadpath" text="5" bordersize="1" float="true" pos="20,70,0,0" width="270" height="20" bkcolor="#FFFFFFFF" bordercolor="#FFdb9e6e" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FF000000" enabled="false" />
+        <Button name="btnBrowserdownload" text="" bordersize="1" float="true" pos="289,70,0,0" width="64" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/changefolder.png&apos; source=&apos;0,0,64,20&apos;" hotimage="file=&apos;ConfigRes/changefolder.png&apos; source=&apos;64,0,128,20&apos;" pushedimage="file=&apos;ConfigRes/changefolder.png&apos; source=&apos;128,0,192,20&apos;" disabledimage="file=&apos;ConfigRes/changefolder.png&apos; source=&apos;192,0,256,20&apos;" />
+        <Label text="更改路径将于下次下载时生效!" textcolor="#FF0066cc" float="true" pos="20,102,0,0" width="204" height="23" textpadding="2,0,2,0" align="wrap" />
+        <Label text="同时开始下载任务上限:" float="true" pos="20,135,0,0" width="159" height="23" textpadding="2,0,2,0" align="wrap" />
+
+        <Label float="true" pos="150,131,0,0" bkcolor="#FFffffff" width="46" height="20" bordercolor="#FFdb9e6e" />
+        <Edit name="editDownloadThreadCount" float="true" pos="151,132,0,0" width="28" height="18" disabledtextcolor="#FF000000" enabled="false" />
+        <Button name="spinup"   float="true" pos="180,133,0,0" width="14" height="8" bkcolor="#FF111111"
+              normalimage="file='ConfigRes\spin.png' source='1,0,15,8' corner='1,1,1,1'"
+              hotimage="file='ConfigRes\spin.png' source='19,0,33,8' corner='1,1,1,1'" />
+        <Button name="spindown" float="true" pos="180,141,0,0" width="14" height="8" bkcolor="#FF111111"
+              normalimage="file='ConfigRes\spin.png' source='1,8,15,16' corner='1,1,1,1'"
+              hotimage="file='ConfigRes\spin.png' source='19,8,33,16' corner='1,1,1,1'" />
+        <Label text="个(1-3)" float="true" pos="200,135,0,0" width="65" height="26" textpadding="2,0,2,0" align="wrap" />
+        <CheckBox name="checkdownloadauto" text="启动后自动开始未完成的下载" float="true" pos="20,165,0,0" width="187" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <CheckBox name="checkdownloadfinished" text="下载完成时提示" float="true" pos="20,187,0,0" width="187" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <CheckBox name="checkdownloadshutdown" text="所有下载任务完成后自动关机" float="true" pos="20,210,0,0" width="187" height="27" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+    </Container>
+</Window>

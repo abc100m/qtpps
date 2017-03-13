@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+ <PowerListElement height="22"  bkcolor="#FF111111">
+    <VerticalLayout >
+      <HorizontalLayout>
+        <Button name="Expand" width="12" height="12" padding="6,4,3,4"
+           normalimage="file='PLRes/UnExpand_1.png' source='0,0,12,12'"
+           hotimage="file='PLRes/UnExpand_1.png' source='12,0,24,12'"
+           pushedimage="file='PLRes/UnExpand_1.png' source='24,0,36,12'">
+        </Button>
+        <Button visible ="false" name="Collapse" width="12" height="12" padding="6,4,3,4"
+           normalimage="file='PLRes/Expand_1.png' source='0,0,12,12'"
+           hotimage="file='PLRes/Expand_1.png' source='12,0,24,12'"
+           pushedimage="file='PLRes/Expand_1.png' source='24,0,36,12'">
+        </Button>
+        <LabelEx name="nickname" padding="0,1,0,3" bordersize="0" textcolor="#FFF4EAEA" />
+      </HorizontalLayout>
+    </VerticalLayout>
+
+  </PowerListElement>
+</Window>

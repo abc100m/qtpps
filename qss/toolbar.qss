@@ -1,0 +1,100 @@
+/***********
+ * Toolbar *
+ ***********/
+
+QToolBar#tlbToolBar QToolButton
+{
+	min-height: 30px;
+	min-width: 30px;
+	max-height: 30px;
+	max-width: 30px;
+	height: 30px;
+	width: 30px;
+	padding: 0px;
+	border-top: 9px; 
+	border-left: 6px;
+	border-bottom: 4px;
+	border-right: 6px;
+}
+
+QToolBar#tlbToolBar QToolButton:enabled
+{
+	border-image: url(%IMAGES_PATH%/tabwindowbutton.png);
+}
+
+QToolBar#tlbToolBar QToolButton:disabled
+{
+	border-image: url(%IMAGES_PATH%/tabwindowbutton_disabled.png);
+}
+
+QToolBar#tlbToolBar QToolButton:enabled:pressed,
+QToolBar#tlbToolBar QToolButton:enabled:checked
+{
+	border-image: url(%IMAGES_PATH%/tabwindowbutton_click.png);
+}
+
+QToolBar#tlbToolBar QToolButton:enabled:hover:!checked
+{
+	border-image: url(%IMAGES_PATH%/tabwindowbutton_hover.png);
+}
+
+QToolBar#tlbToolBar QLabel#contactMenu
+{
+	padding: -1px;
+	border-image: none;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-top: 8px solid transparent;
+	width: 44px;
+	height: 47px;
+/*	margin-right: 2px;
+	margin-bottom: 0px;*/
+	margin: 0px;
+}
+
+QToolBar#tlbToolBar QLabel#contactMenu:hover
+{
+	border-image: url(%IMAGES_PATH%/avatarhoverborder_big.png);
+}
+
+QToolBar#tlbToolBar QToolButton#contactMenu::menu-indicator
+{
+	image: url(%IMAGES_PATH%/tabwindowmenuindicator.png);
+	subcontrol-origin: padding;
+	subcontrol-position: bottom right;
+	width: 12px;
+	height: 12px;
+	right: 1px;
+	bottom: 1px;
+}
+
+QToolBar#tlbToolBar QToolButton#contactMenu::menu-indicator:hover
+{
+	right: 1px;
+}
+
+QToolBar#tlbToolBar QToolButton#tbSipCall
+{
+	width: 40px;
+	padding-right: 4px;
+}
+
+QToolBar#tlbToolBar QToolButton#tbSipCall::menu-indicator
+{
+	right: 2px;
+}
+
+QToolBar#tlbToolBar
+{
+	spacing: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 6px;
+	padding-top: -1px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border: none;
+}

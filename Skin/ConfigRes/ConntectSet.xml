@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <Container name="ContainerUI1" text="连接设置" width="400" height="400" inset="2,2,2,2">
+        <Label name="LabelUI1" text="连接设置" float="true" pos="1,2,0,0" width="396" height="20" 
+               bkimage="file= &apos;ConfigRes/RightTitleBar.png&apos; corner=&apos;4,4,4,4&apos; mask=&apos;#FFFF00FF&apos;" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" />
+        <Container name="StartPortOption" float="true" pos="13,22,0,0" width="375" height="65">
+            <Text name="StartPort" text=" 起始端口号：" float="true" pos="4,16,0,0" width="123" height="20" textpadding="0,3,0,0" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" font="20" align="rightwrap" />
+            <Button name="selTopWindow_check" visible="false" float="true" pos="133,48,0,0" width="13" height="13" align="center" normalimage="file=&apos;checkboxpicture.png&apos; source=&apos;52,0,65,13&apos;" hotimage="file=&apos;checkboxpicture.png&apos; source=&apos;65,0,78,13&apos;" pushedimage="file=&apos;checkboxpicture.png&apos; source=&apos;78,0,91,13&apos;" />
+            <Button name="unselTopWindow_check" float="true" pos="133,48,0,0" width="13" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;checkboxpicture.png&apos; source=&apos;0,0,13,13&apos;" hotimage="file=&apos;checkboxpicture.png&apos; source=&apos;13,0,26,13&apos;" pushedimage="file=&apos;checkboxpicture.png&apos; source=&apos;39,0,52,13&apos;" />
+            <Edit name="port" text="123" float="true" pos="133,16,0,0" width="81" height="20" 
+                  bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Button name="randPort" text="随机端口(C)" tooltip="产生随机端口" float="true" pos="223,16,0,0" width="85" height="20" 
+                    pushedimage="file='CommonRes/btn_no_picture.png' source='0,0,75,23'"
+                    normalimage="file='CommonRes/btn_no_picture.png' source='0,23,75,46'"
+                    hotimage="file='CommonRes/btn_no_picture.png' source='0,46,75,69'"
+                    textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Text name="TextUI1" text="使用固定端口" float="true" pos="152,48,0,0" width="100" height="13" textpadding="2,0,2,0" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="wrap" />
+        </Container>
+        <Container name="ContainerUI2" float="true" pos="13,87,0,0" width="216" height="42" inset="0,3,0,0">
+            <Text name="maxRemtConnt" text="最大远程连接数：" float="true" pos="4,10,0,0" width="123" height="19" textpadding="0,3,0,0" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="rightwrap" />
+            <Combo normalimage="file=&apos;LoginRes/Combo_nor.bmp&apos; corner=&apos;2,2,24,2&apos;" hotimage="file=&apos;LoginRes/Combo_over.bmp&apos; corner=&apos;2,2,24,2&apos;" pushedimage="file=&apos;LoginRes/Combo_over.bmp&apos; corner=&apos;2,2,24,2&apos;" 
+                   dropboxsize="0,150" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" 
+                   itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" 
+                   name="remoteNum" float="true" pos="133,10,0,0" width="81" height="20" bkcolor="#FFFFFFFF" />
+        </Container>
+        <Container name="ContainerUI3" float="true" pos="13,129,0,0" width="216" height="42">
+            <Text name="maxLocalConnt" text="最大本地连接数：" float="true" pos="4,11,0,0" width="123" height="19" textpadding="0,3,0,0" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="rightwrap" />
+            <Combo normalimage="file=&apos;LoginRes/Combo_nor.bmp&apos; corner=&apos;2,2,24,2&apos;" hotimage="file=&apos;LoginRes/Combo_over.bmp&apos; corner=&apos;2,2,24,2&apos;" pushedimage="file=&apos;LoginRes/Combo_over.bmp&apos; corner=&apos;2,2,24,2&apos;" dropboxsize="0,150" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" name="loaclNum" float="true" pos="133,11,0,0" width="81" height="19" bkcolor="#FFFFFFFF" />
+        </Container>
+        <Container name="ContainerUI4" float="true" pos="13,171,0,0" width="216" height="42">
+            <Text name="maxConnt" text="最大总连接数：" float="true" pos="4,12,0,0" width="123" height="19" textpadding="0,3,0,0" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="rightwrap" />
+            <Combo normalimage="file=&apos;LoginRes/Combo_nor.bmp&apos; corner=&apos;2,2,24,2&apos;" hotimage="file=&apos;LoginRes/Combo_over.bmp&apos; corner=&apos;2,2,24,2&apos;" pushedimage="file=&apos;LoginRes/Combo_over.bmp&apos; corner=&apos;2,2,24,2&apos;" dropboxsize="0,150" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" name="maxNum" float="true" pos="133,12,0,0" width="81" height="19" bkcolor="#FFFFFFFF" />
+        </Container>
+        <Container name="ContainerUI5" float="true" pos="13,213,0,0" width="375" height="65">
+            <Text name="combinedConnt" text="并发连接数：" float="true" pos="4,15,0,0" width="123" height="19" textpadding="0,3,0,0" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="rightwrap" />
+            <Button name="selTopWindow_check" visible="false" float="true" pos="133,48,0,0" width="13" height="13" align="center" normalimage="file=&apos;checkboxpicture.png&apos; source=&apos;52,0,65,13&apos;" hotimage="file=&apos;checkboxpicture.png&apos; source=&apos;65,0,78,13&apos;" pushedimage="file=&apos;checkboxpicture.png&apos; source=&apos;78,0,91,13&apos;" />
+            <Button name="unselTopWindow_check" float="true" pos="133,48,0,0" width="13" height="13" 
+                    textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;checkboxpicture.png&apos; source=&apos;0,0,13,13&apos;" hotimage="file=&apos;checkboxpicture.png&apos; source=&apos;13,0,26,13&apos;" pushedimage="file=&apos;checkboxpicture.png&apos; source=&apos;39,0,52,13&apos;" />
+            <Combo normalimage="file=&apos;LoginRes/Combo_nor.bmp&apos; corner=&apos;2,2,24,2&apos;" hotimage="file=&apos;LoginRes/Combo_over.bmp&apos; corner=&apos;2,2,24,2&apos;" pushedimage="file=&apos;LoginRes/Combo_over.bmp&apos; corner=&apos;2,2,24,2&apos;" dropboxsize="0,150" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" name="combinedNum" float="true" pos="134,15,0,0" width="81" height="19" bkcolor="#FFFFFFFF" />
+            <Text name="TextUI6" text="连接数智能控制" float="true" pos="152,48,0,0" width="100" height="13" textpadding="2,0,2,0" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="wrap" />
+            <Button name="codDefault" text="默认值(D)" float="true" pos="223,15,0,0" width="85" height="19" 
+                    pushedimage="file='CommonRes/btn_no_picture.png' source='0,0,75,23'"
+                    normalimage="file='CommonRes/btn_no_picture.png' source='0,23,75,46'"
+                    hotimage="file='CommonRes/btn_no_picture.png' source='0,46,75,69'"
+                    textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+        </Container>
+        <Container name="ContainerUI6" float="true" pos="229,87,0,0" width="159" height="126">
+            <Label name="LabelUI2" float="true" pos="15,12,0,0" width="33" height="32" 
+                   bkimage="file=&apos;ConfigRes/ppsIcon.png&apos; corner=&apos;4,4,4,4&apos; mask=&apos;#FFFF00FF&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Text name="TextUI2" text="     设置较大的链接数，可能会导致某些路由器出现断流." float="true" pos="15,46,0,0" width="135" height="52" textpadding="2,2,2,0" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="wrap" />
+        </Container>
+    </Container>
+</Window>

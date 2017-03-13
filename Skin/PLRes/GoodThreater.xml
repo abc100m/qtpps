@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <PowerListElement name="ListElement" height="40"  bkimage="PLRes/download.png" >
+      <HorizontalLayout >
+        <HorizontalLayout />
+        <Button name="btn" width="50" align="right" bordersize="0" textcolor="#FFadadad" disabledtextcolor="#FFFFFFFFF" />
+        <HorizontalLayout width="5"/>
+      </HorizontalLayout>
+  </PowerListElement>
+</Window>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <Font name="宋体" size="13" bold="false" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+    <Container name="ContainerUI1" size="80,40">
+      <Combo name="NameCombo" >
+        <ListLabelElement name="1" text="张三"  />
+        <ListLabelElement name="2" text="李四" />
+      </Combo>
+    </Container>
+</Window>

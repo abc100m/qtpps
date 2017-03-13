@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="350,153" caption="0,0,0,22" roundcorner="4,4">
+    <Container bordersize="1" width="503" height="130" bkimage="file=&apos;soft_windows_bg.png&apos; corner=&apos;100,50,10,10&apos;">
+        <Button name="btnClose" bordersize="1" float="true" pos="312,2,0,0" width="38" height="30" maxheight="30" maxwidth="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;soft_close.png&apos; source=&apos;0,0,38,30&apos;" hotimage="file=&apos;soft_close.png&apos; source=&apos;38,0,76,30&apos;" pushedimage="file=&apos;soft_close.png&apos; source=&apos;76,0,114,30&apos;" />
+        <Label bordersize="1" float="true" pos="50,45,0,0" width="52" height="52" bkimage="file=&apos;soft_txt_icon_1.png&apos; " textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" />
+        <Label text="提示" bordersize="1" float="true" pos="69,10,0,0" width="48" height="16" textcolor="#FFBABABA" disabledtextcolor="#FFA7A6AA" />
+        <Label name="lblLine1" text="你的VIP会员权限不够观看此内容," bordersize="1" float="true" pos="109,55,0,0" width="220" height="14" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label name="lblLine2" text="立即成为VIP权限吗?" bordersize="1" float="true" pos="109,77,0,0" width="220" height="14" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Button name="btnOK" text="立即开通" bordersize="1" float="true" pos="108,109,0,0" width="67" height="26" textcolor="#00FFFEFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;134,0,201,36&apos;" />
+        <Button name="btnCancel" text="取消" bordersize="1" float="true" pos="185,109,0,0" width="67" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;134,0,201,36&apos;" />
+    </Container>
+</Window>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="350,152" caption="0,0,0,22" roundcorner="4,4">
+  <VerticalLayout name="commondlg" bordersize="1" bkimage="file=&apos;soft_windows_bg.png&apos; corner=&apos;70,40,20,20&apos; " inset="0,0,0,0">
+    <HorizontalLayout bordersize="1" height="28" inset="2,2,2,0">
+      <Button name="dlgname" text="提示" bordersize="1" float="true" pos="51,1,0,0" width="60" height="30" textcolor="#FFBABABA" disabledtextcolor="#FFA7A6AA" align="center" />
+      <Control name="barctrl" width="312" />
+      <Button name="closebtn" maxheight="30" maxwidth="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='soft_close.png' source='0,0,38,30'" hotimage="file='soft_close.png' source='38,0,76,30'" pushedimage="file='soft_close.png' source='76,0,114,30'" />
+    </HorizontalLayout>
+    <Label name="icon"  float="true" pos="50,48,0, 0" width="52" height="52" bkimage="soft_txt_icon_1.png" />
+    <Label name="ShowTest" width="600" height="66" text="" float="true" pos="109,43,0,0"  />
+    <Button name="btnOK"      text="确定" tooltip="" float="true"  pos="109,107,0,0"  height="26" width="67" textcolor="#00FFFEFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;134,0,201,36&apos;" />
+    <Button name="btnCancel"  text="取消" tooltip=""  float="true"  pos="185,107,0,0"  height="26" width="67" textcolor="#00000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;134,0,201,36&apos;" />
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+
+  <VerticalLayout >
+    
+
+  <FloatBarConKind name="FloatBarCon" height="24" bkimage="file=&apos;FBRes/player_top_bg.png&apos; corner='1,1,1,1' " >
+
+    <Label name="FBLeft" width="3" visible="false"/>
+    <Button name="barX1" width="40" tooltip="1倍窗口"
+             normalimage="file='FBRes/player_top_icon_01.png' source='0,0,40,24'"
+             hotimage="file='FBRes/player_top_icon_01.png' source='40,0,80,24'"
+             pushedimage="file='FBRes/player_top_icon_01.png' source='80,0,120,24'"   />
+
+    <Button name="barX15" width="40"  tooltip="1.5倍窗口"
+             normalimage="file='FBRes/player_top_icon_02.png' source='0,0,40,24'"
+             hotimage="file='FBRes/player_top_icon_02.png' source='40,0,80,24'"
+             pushedimage="file='FBRes/player_top_icon_02.png' source='80,0,120,24'"   />
+
+    <Container  width="40"  >
+      <Button name="barMiniYes"  visible="false"  tooltip="标准模式"
+              normalimage="file='FBRes/player_top_icon_03.png' source='0,0,40,24'"
+             hotimage="file='FBRes/player_top_icon_03.png' source='40,0,80,24'"
+             pushedimage="file='FBRes/player_top_icon_03.png' source='80,0,120,24'"   />
+            
+      <Button name="barMiniNo"    tooltip="精简模式"
+            
+        normalimage="file='FBRes/player_top_icon_04.png' source='0,0,40,24'"
+        hotimage="file='FBRes/player_top_icon_04.png' source='40,0,80,24'"
+        pushedimage="file='FBRes/player_top_icon_04.png' source='80,0,120,24'"   />
+      </Container>
+
+
+    <Container  width="40"  >
+      <Button name="barFullScreenNo"    tooltip="全屏"
+            normalimage="file='FBRes/player_top_icon_05.png' source='0,0,40,24'"
+             hotimage="file='FBRes/player_top_icon_05.png' source='40,0,80,24'"
+             pushedimage="file='FBRes/player_top_icon_05.png' source='80,0,120,24'"   />
+      
+      <Button name="barFullScreenYes"   visible="false"  tooltip="取消全屏"
+            normalimage="file='FBRes/player_top_icon_06.png' source='0,0,40,24'"
+             hotimage="file='FBRes/player_top_icon_06.png' source='40,0,80,24'"
+             pushedimage="file='FBRes/player_top_icon_06.png' source='80,0,120,24'"   />
+    </Container>
+    
+
+    <Container  width="40"   >
+      <Button name="barTopMostYes"  visible="false"  tooltip="取消置顶"
+            normalimage="file='FBRes/player_top_icon_07.png' source='0,0,40,24'"
+             hotimage="file='FBRes/player_top_icon_07.png' source='40,0,80,24'"
+             pushedimage="file='FBRes/player_top_icon_07.png' source='80,0,120,24'"   />
+      <Button name="barTopMostNo"    tooltip="窗口置顶"  
+            normalimage="file='FBRes/player_top_icon_08.png' source='0,0,40,24'"
+             hotimage="file='FBRes/player_top_icon_08.png' source='40,0,80,24'"
+             pushedimage="file='FBRes/player_top_icon_08.png' source='80,0,120,24'"   />
+    </Container>
+
+
+    <Label  width="3"/>
+    <VerticalLayout     >
+      <Label height="3"/>
+      <FloatMovieTitleKind name="batMovieTitle" align="centermiddle"  textcolor="#FFc0c0c0"
+           singleline="true"   bkimage="file='FBRes/player_top_bg.png' source='0,0,40,24'" font="1" />
+
+
+    </VerticalLayout>
+    
+
+    <Button name="barPhoto" width="40"  tooltip="截图保存"
+            normalimage="file='FBRes/player_top_icon_09.png' source='1,0,41,24'"
+             hotimage="file='FBRes/player_top_icon_09.png' source='41,0,81,24'"
+             pushedimage="file='FBRes/player_top_icon_09.png' source='81,0,121,24'"   />
+    
+    
+    <Button name="barResource" width="40"   tooltip="收藏" 
+             normalimage="file='FBRes/player_top_icon_10.png' source='1,0,40,24'"
+             hotimage="file='FBRes/player_top_icon_10.png' source='41,0,80,24'"
+             pushedimage="file='FBRes/player_top_icon_10.png' source='81,0,120,24'" 
+            disabledimage="file='FBRes/player_top_icon_10.png' source='121,0,160,24'" />
+
+
+
+    <Button name="barShare" width="40"  tooltip="分享到PPS娱乐圈"
+             normalimage="file='FBRes/player_top_icon_11.png' source='1,0,40,24'"
+             hotimage="file='FBRes/player_top_icon_11.png' source='41,0,80,24'"
+             pushedimage="file='FBRes/player_top_icon_11.png' source='81,0,120,24'"   />
+
+
+
+    <Button name="barTimeSet" width="40"  tooltip="定时"
+             normalimage="file='FBRes/player_top_icon_12.png' source='1,0,40,24'"
+             hotimage="file='FBRes/player_top_icon_12.png' source='41,0,80,24'"
+             pushedimage="file='FBRes/player_top_icon_12.png' source='81,0,120,24'"   />
+
+
+    <Label name="FBRight" width="3" visible="false"/>
+  </FloatBarConKind>
+  <HorizontalLayout name="FloatBarExtra" height="24"  bkcolor="0xff252525"
+ >
+
+  </HorizontalLayout>
+  </VerticalLayout>
+
+</Window>
+

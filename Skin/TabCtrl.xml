@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window bktrans="true">
+ <Font name="宋体" size="13" bold="false"/>
+ <Font name="宋体" size="12"/>
+<VerticalLayout>
+  <Option name="online" font="2" float="true" pos="0,3,0,0" width="100" height="36" selectedtextcolor="#FFFEFF" textcolor="#FF7C7C7C" disabledtextcolor="#FFA7A6AA"  align="center" 
+  normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" group="contenttab" selected="false" selectedimage="tabbar_pushed.png" />
+  <Button name="move" float="true" pos="0,2,0,0" width="100" height="36" normalimage="light4.png" alpha="50"/>
+</VerticalLayout>
+</Window>

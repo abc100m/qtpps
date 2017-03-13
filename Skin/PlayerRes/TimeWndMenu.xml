@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="70,30">
+  <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+  <VerticalLayout name="VerticalLayoutUI6" enabled="false" >
+    <VerticalLayout name="VerticalLayoutUI1" enabled="false" bkimage="file=&apos;PlayerRes/player_time_tip.png&apos; corner=&apos;10,10,10,10&apos;">
+      <Container name="ContainerUI1" >
+        <VerticalLayout name="VerticalLayoutUI2">
+          <Label name="menu_Time" text="" height="22" padding="2,5,0,0" align="center" visible="true" enabled="false" mouse="false" disabledtextcolor="#FFffffff" />
+        </VerticalLayout>
+      </Container>
+      <Container name="ContainerUI67" height="1" >
+        <HorizontalLayout name="111VerticalUI3" enabled="false" height="1" >
+          <Container name="ContainerUI2"></Container>
+          <Container name="ContainerUI3" width="9" bkimage="file=&apos;PlayerRes/player_time_tip3.png&apos; corner=&apos;0,0,9,1&apos;"></Container>
+          <Container name="ContainerUI4"></Container>
+        </HorizontalLayout>
+      </Container>
+    </VerticalLayout>
+    <HorizontalLayout name="111VerticalUI3" enabled="false" height="5" >
+      <Container name="ContainerUI2"></Container>
+      <Container name="ContainerUI3" width="9" bkimage="file=&apos;PlayerRes/player_time_tip2.png&apos; corner=&apos;0,0,9,5&apos;"></Container>
+      <Container name="ContainerUI4"></Container>
+    </HorizontalLayout>
+  </VerticalLayout>
+  
+</Window>

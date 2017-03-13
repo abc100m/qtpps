@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <Font name="宋体" size="12" bold="false" italic="false" default="true"/>
+  <Font name="新宋体" size="12" bold="true" italic="false" />
+
+  <Container  width="407" height="320" inset="2,2,2,2">
+    <Label font="1" name="text" text="文件关联" float="true" pos="20,15,0,0" width="55" height="22" />
+    <Label name="LabelUI1"   text="" float="true" pos="80,20,0,0" width="320" height="2" bkimage="file= &apos;ConfigRes/RightTitleBar.png&apos; corner='1,1,1,1' xtiled='false' ytiled='true'" />
+
+    <Container name="FileTreeContainer" pos="10,32,0,0" width="375" height="254" inset="2,2,2,2" float="true">
+      <FileExtList name="fileext_tree" header="hidden" itemshowhtml="true" vscrollbar="true"  />
+    </Container>
+
+    <Container  pos="60,270,0,0" width="405" height="25" float="true">
+      <Button name="btnSelectAll" text="" float="true" pos="100,1,0,0" width="66" height="23"  tooltip="全选"
+              selectedtextcolor="#FFFEFF" textcolor="#FFFEFF"
+              normalimage="file='ConfigRes/soft_setting_button1.png' source='0,0,66,23'"
+              hotimage="file='ConfigRes/soft_setting_button1.png' source='66,0,132,23'"
+              pushedimage="file='ConfigRes/soft_setting_button1.png' source='132,0,198,23'"/>
+      <Button name="btnSelectNone" text="" float="true" pos="185,1,0,0" width="66" height="23"  tooltip="反选"
+              selectedtextcolor="#FFFEFF" textcolor="#FFFEFF"
+              normalimage="file='ConfigRes/soft_setting_button2.png' source='0,0,66,23'"
+              hotimage="file='ConfigRes/soft_setting_button2.png' source='66,0,132,23'"
+              pushedimage="file='ConfigRes/soft_setting_button2.png' source='132,0,198,23'"/>
+      <Button name="btnDefaultSetting" text="" float="true" pos="270,1,80,24" width="66" height="23"   tooltip="默认设置"
+              selectedtextcolor="#FFFEFF" textcolor="#FFFEFF"
+              normalimage="file='ConfigRes/soft_setting_button4.png' source='0,0,66,23'"
+              hotimage="file='ConfigRes/soft_setting_button4.png' source='66,0,132,23'"
+              pushedimage="file='ConfigRes/soft_setting_button4.png' source='132,0,198,23'"/>
+    </Container>
+  </Container>
+</Window>
+

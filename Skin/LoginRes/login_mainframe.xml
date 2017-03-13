@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+
+  <VerticalLayout name="LoginMainFrameCon" >
+    <HorizontalLayout  name="loginInterface" visible="false">
+
+
+
+      <Label />
+      <Button name="loginUser"  width="30"   textcolor="#FF2665f6"   align="right"/>
+
+      <Label width="5"   />
+  
+ <VerticalLayout width="7"  name="loginArrow"  >
+
+        <Label height="4"/>
+        <Button  name="lblDownArrow" height="13" 
+              bkimage="file='loginres/arrow_down.png' dest='0,4,7,8'"
+               hotimage="file='loginres/arrow_down.png' dest='0,4,7,8'"
+                pushedimage="file='loginres/arrow_down.png' dest='0,4,7,8'"/>
+      </VerticalLayout>
+      <Label width="5" />
+      <VerticalLayout width="20"  >
+
+        <Label height="5"/>
+
+        <Button name="loginVip"  height="12"
+                 bkimage="file='user_vip_0.png'"/>
+        <Label />
+
+      </VerticalLayout>
+
+
+
+      <Label  width="5" />
+
+      <VerticalLayout width="23"  >
+
+        <Label height="4"/>
+
+        <Button name="QuitBtnFrame" height="12"
+               normalimage="file='loginres/user_login_txt_1.png' source='0,0,23,12'"
+             hotimage="file='loginres/user_login_txt_1.png' source='23,0,46,12'"
+       pushedimage="file='loginres/user_login_txt_1.png' source='46,0,69,12'" />
+
+        <Label />
+ 
+      </VerticalLayout>
+
+
+      <Label width="15"></Label>
+    </HorizontalLayout>
+
+
+    <HorizontalLayout  name="unloginInterface">
+
+      <Label />
+
+      <VerticalLayout width="23"  >
+
+        <Label height="4"/>
+
+        <Button name="loginRightBtn"     height="12"
+               normalimage="file='loginres/user_login_txt_2.png' source='0,0,23,12'"
+             hotimage="file='loginres/user_login_txt_2.png' source='23,0,46,12'"
+       pushedimage="file='loginres/user_login_txt_2.png' source='46,0,69,12'" />
+
+
+        <Label />
+      </VerticalLayout>
+
+
+
+
+      <Label width="5" />
+
+      <VerticalLayout width="23"  >
+
+        <Label height="4"/>
+
+        <Button name="regBtnFrame" height="12"
+                     normalimage="file='loginres/user_login_txt_3.png' source='0,0,23,12'"
+             hotimage="file='loginres/user_login_txt_3.png' source='23,0,46,12'"
+       pushedimage="file='loginres/user_login_txt_3.png' source='46,0,69,12'" />
+
+
+        <Label />
+      </VerticalLayout>
+
+
+
+
+
+      <Label width="10"></Label>
+    </HorizontalLayout>
+
+  </VerticalLayout>
+
+
+</Window>
+
+

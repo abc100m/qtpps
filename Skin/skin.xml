@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window sizebox="6,6,6,6" caption="0,0,0,45" roundcorner="5,5">
+  <Font name="宋体" size="13" bold="false" italic="false" indexfont="skinFont1" />
+  <Font name="宋体" size="12" bold="false" italic="false" indexfont="skinFont2" />
+  <Font name="宋体" size="11" bold="false" italic="false" indexfont="skinFont3" />
+  <Font name="微软雅黑" size="12" bold="false" italic="false" default="true" indexfont="skinDefault" />
+  <Font name="微软雅黑" size="17" bold="false" italic="false" indexfont="listBig"/>
+  <Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.png' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.png' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.png' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.png' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.png' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.png' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.png' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.png' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.png' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.png' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.png' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.png' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.png' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.png' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.png' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.png' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.png' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.png' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.png' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.png' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <Container name="PPSRoot" bkimage="file=&apos;bg.png&apos; corner='10,50,10,10' " >
+    <HorizontalLayout>
+      <Control float="false"/>
+      <Control float="false" width="520" height="45" bkimage="soft_top_bg2.png"/>
+      <Control float="false" width="100"/>
+    </HorizontalLayout>
+    <VerticalLayout name="PPSMainFrame" >
+      <VerticalLayout name="top" height="45" >
+        <HorizontalLayout name="HorizontalLayoutUI3">
+          <VerticalLayout name="HorizontalLayoutUI1" >
+            <Button name="TitleIcon"  float="true" pos="8,7,0,0"   width="99" height="30"  normalimage="file=&apos;TitleIcon.png&apos; source=&apos;0,0,99,30&apos;" hotimage="file=&apos;TitleIcon.png&apos; source=&apos;99,0,198,30&apos;" pushedimage="file=&apos;TitleIcon.png&apos; source=&apos;198,0,297,30&apos;" />
+            <TabCtrl name="TabCtrl"   float="true" pos="105,8,0,0" width="1000" height="48" bkcolor="#FF00ff00" />
+          </VerticalLayout>
+          <VerticalLayout name="HorizontalLayoutUI2" width="252">
+            <HorizontalLayout height="20" >
+              <Label  />
+              <Button name="menubtn"  tooltip="精简模式" width="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_menu.png&apos; source=&apos;0,0,38,20&apos;" hotimage="file=&apos;sys_menu.png&apos; source=&apos;38,0,76,20&apos;" pushedimage="file=&apos;sys_menu.png&apos; source=&apos;76,0,114,20&apos;" />
+              <Button name="menubtn2" tooltip="标准模式" visible="false"  width="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_menu2.png&apos; source=&apos;0,0,38,20&apos;" hotimage="file=&apos;sys_menu2.png&apos; source=&apos;38,0,76,20&apos;" pushedimage="file=&apos;sys_menu2.png&apos; source=&apos;76,0,114,20&apos;" />
+              <Button name="minbtn"   tooltip="最小化" width="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_min.png&apos; source=&apos;0,0,38,20&apos;" hotimage="file=&apos;sys_min.png&apos; source=&apos;38,0,76,20&apos;" pushedimage="file=&apos;sys_min.png&apos; source=&apos;76,0,114,20&apos;" />
+              <Button name="maxbtn"   tooltip="最大化" width="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_max.png&apos; source=&apos;0,0,38,20&apos;" hotimage="file=&apos;sys_max.png&apos; source=&apos;38,0,76,20&apos;" pushedimage="file=&apos;sys_max.png&apos; source=&apos;76,0,114,20&apos;" />
+              <Button name="restorebtn"  tooltip="还原窗口" visible="false" width="38" align="center" normalimage="file=&apos;sys_restore.png&apos; source=&apos;0,0,38,20&apos;" hotimage="file=&apos;sys_restore.png&apos; source=&apos;38,0,76,20&apos;" pushedimage="file=&apos;sys_restore.png&apos; source=&apos;76,0,114,20&apos;" />
+              <Button name="closebtn"    tooltip="关闭" width="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;soft_close.png&apos; source=&apos;0,0,38,20&apos;" hotimage="file=&apos;soft_close.png&apos; source=&apos;38,0,76,20&apos;" pushedimage="file=&apos;soft_close.png&apos; source=&apos;76,0,114,20&apos;" />
+
+            </HorizontalLayout>
+            <HorizontalLayout  height="4"/>
+            <HorizontalLayout  height="17"  name="login_mainframe">
+             
+
+            </HorizontalLayout>
+
+
+          </VerticalLayout>
+        </HorizontalLayout>
+      </VerticalLayout>
+      <VerticalLayout name="top2" height="1" inset="0,0,0,0" bkimage="file='list_top_line.png' xtiled='false' ytiled='true'" >
+        <Button name="underLine" visible="false" float="true" pos="105,0,0,0" width="100" height="4" normalimage="list_top_line2.png" alpha="50"/>
+      </VerticalLayout>
+      <VerticalLayout visible="false" name="top3" height="1" />
+      <VerticalLayout name="top4">
+        <MovingTabCtrl name="activepage"  bkimage="file=&apos;page_container_bg.png&apos; xtiled=&apos;true&apos; ytiled=&apos;true&apos;" padding="3,0,3,3">
+          <Container name="OnlineContainer">
+            <SplitterKind name="SplitterCon">
+              <LeftPageKind name="LeftPageCon"   >
+                <VerticalLayout name="VerticalLayoutUI2" width="34">
+                  <VerticalLayout name="VerticalLayoutUI3" width="34">
+                    <HorizontalLayout name="LeftTopBar" bkimage="lefttopbk.png" >
+                      <Button name="LeftMove"    float="true" pos="0,28,0,0"   width="34" height="34" normalimage="lift_tab_icon_bg.png" alpha="50"/>
+                      <Option name="OptNormal"   tooltip="首页" float="true" pos="0,28,0,0"   width="34" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" canpress="true" normalimage="file=&apos;lefttop1.png&apos; source=&apos;0,0,34,34&apos;" hotimage="file=&apos;lefttop1.png&apos; source=&apos;34,0,68,34&apos;" pushedimage="file=&apos;lefttop1.png&apos; source=&apos;68,0,102,34&apos;" group="contenttab2" selected="true" selectedimage="file=&apos;lefttop1.png&apos; source=&apos;136,0,170,34&apos;" />
+                      <Option name="OptHistory"  tooltip="历史" float="true" pos="0,74,0,0"  width="34" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  canpress="true" normalimage="file=&apos;lefttop3.png&apos; source=&apos;0,0,34,34&apos;" hotimage="file=&apos;lefttop3.png&apos; source=&apos;34,0,68,34&apos;" pushedimage="file=&apos;lefttop3.png&apos; source=&apos;68,0,102,34&apos;" group="contenttab2" selectedimage="file=&apos;lefttop3.png&apos; source=&apos;136,0,170,34&apos;" />
+                      <Option name="OptKeep"     tooltip="收藏" float="true" pos="0,120,0,0" width="34" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  canpress="true" align="center" normalimage="file=&apos;lefttop4.png&apos; source=&apos;0,0,34,34&apos;" hotimage="file=&apos;lefttop4.png&apos; source=&apos;34,0,68,34&apos;" pushedimage="file=&apos;lefttop4.png&apos; source=&apos;68,0,102,34&apos;" group="contenttab2" selectedimage="file=&apos;lefttop4.png&apos; source=&apos;136,0,170,34&apos;" />
+                      <Option name="OptUpload"   tooltip="上传" float="true" />
+                      <Option name="OptDownload" tooltip="下载" float="true" pos="0,165,0,0" width="34" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  canpress="true" align="center" normalimage="file=&apos;lefttop6.png&apos; source=&apos;0,0,34,34&apos;" hotimage="file=&apos;lefttop6.png&apos; source=&apos;34,0,68,34&apos;" pushedimage="file=&apos;lefttop6.png&apos; source=&apos;68,0,102,34&apos;" group="contenttab2" selectedimage="file=&apos;lefttop6.png&apos; source=&apos;136,0,170,34&apos;" />
+                    </HorizontalLayout>
+                  </VerticalLayout>
+                  <VerticalLayout name="VerticalLayoutUI4" height="40" bkimage="lefttopbk.png">
+                    <!--<Button name="LeftSetting" visible="false" float="true" pos="0,0,0,0" width="35" height="34" normalimage="lift_tab_icon_bg.png" alpha="50"/>-->
+                    <Button name="OptSettings" tooltip="设置" float="true" pos="0,0,0,0" width="34" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;lefttop7.png&apos; source=&apos;0,0,34,34&apos;" hotimage="file=&apos;lefttop7.png&apos; source=&apos;34,0,68,34&apos;" group="contenttab9" selectedimage="file=&apos;lefttop7.png&apos; source=&apos;140,0,175,31&apos;" />
+                  </VerticalLayout>
+                </VerticalLayout>
+
+                <VerticalLayout>
+                  <HorizontalLayout name="PowerList" >
+                    <VerticalLayout >
+                      <HorizontalLayout name="RangeEdit" height="28" padding="2,0,0,0" >
+
+
+                      </HorizontalLayout>
+                      <VerticalLayout name="searchrange2">
+                        <PowerlistContainer  name="power_list_container" bkcolor="#FF161616" />
+                        <historyui    name="left_history"  visible="false"       bkcolor="#FF161616" />
+                        <keepui       name="left_keep"     visible="false"       bkcolor="#FF161616" />
+                        <downloadui   name="left_download" visible="false"       bkcolor="#FF161616" />
+                      </VerticalLayout>
+                    </VerticalLayout>
+
+                  </HorizontalLayout>
+                </VerticalLayout>
+              </LeftPageKind>
+
+              <Splitter name="LeftSeparator" width="3"  bkcolor="0xff212121"/>
+              <PowerPlayerConKind name="PowerPlayerCon"   >
+                <VerticalLayout>
+                  <HorizontalLayout name="PowerPlayerTop" height="24">
+                       
+                  </HorizontalLayout>
+                  <PowerPlayerUI name="power_player" bkcolor="#FF000000" />
+
+                </VerticalLayout>
+
+              </PowerPlayerConKind>
+
+              <Splitter name="RightSeparator" bordersize="1" width="3" bkcolor="0xff212121"/>
+              <WebControlKind name="WebControlCon"   >
+
+              </WebControlKind>
+            </SplitterKind>
+          </Container>
+        </MovingTabCtrl>
+
+      </VerticalLayout>
+    </VerticalLayout>
+  </Container>
+</Window>

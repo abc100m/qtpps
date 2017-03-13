@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/titlebar/close.png</file>
+        <file>images/titlebar/max.png</file>
+        <file>images/titlebar/min.png</file>
+        <file>images/titlebar/restore.png</file>
+        <file>images/titlebar/menu.png</file>
+        <file>images/titlebar/skin.png</file>
+        <file>images/titlebar/bg.png</file>
+        <file>images/titlebar/icon.png</file>
+        <file>images/bg/bg.png</file>
+        <file>images/buttonbar/select_border.png</file>
+        <file>images/linedit/clear.png</file>
+    </qresource>
+</RCC>

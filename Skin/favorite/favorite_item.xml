@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+  <DownloadContainer height="92" bkcolor="#FF111111">
+    <VerticalLayout>
+    <HorizontalLayout height="92" >
+	    <Label name="PicControl" width="60" height="80" bkimage="loadingimage_s.png" padding="5, 5, 5, 5" />
+      <VerticalLayout>
+        <HorizontalLayout height="20" padding="0,0,0,3">
+          <Label name="vipicon"  visible="false" width="16" height="16" padding="2,4,2,2" bkimage="vip_icon.png" align="center" />
+          <Label name="usericon" visible="false" width="16" height="16" padding="2,4,2,2" bkimage="user_icon.png" align="center" />
+          <Label name="nickname"  padding="0,3,0,0"  textcolor="#FFadadad" endellipsis="true" />
+          <Button name="btnClose" visible="false" width="11" height="11" padding="0,5,5,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;left_list_del.png&apos; source=&apos;0,0,11,11&apos;" hotimage="file=&apos;left_list_del.png&apos; source=&apos;11,0,22,11&apos;" pushedimage="file=&apos;left_list_del.png&apos; source=&apos;22,0,33,11&apos;" />
+        </HorizontalLayout>
+        <HorizontalLayout height="21">
+          <Label text="类型:"  width="35" height="22" textcolor="#00A4A0A0" disabledtextcolor="#FFA7A6AA" />
+          <Label name="filmType" text="12:12"  textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+        </HorizontalLayout>
+        <HorizontalLayout height="22">
+          <Label text="评分:"  width="35" height="22" textcolor="#00A4A0A0" disabledtextcolor="#FFA7A6AA" />
+          <Label name="filmScore" text="12:12"  width="20" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+          <Label text="分" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+        </HorizontalLayout>
+        <Container name="generabtn" visible="false" height="22" width="60" >
+          <Button name="expand" text="展开"  padding="0,2,0,0" width="60" height="21" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;left_list_download.png&apos; source=&apos;0,0,60,21&apos;" hotimage="file=&apos;left_list_download.png&apos; source=&apos;60,0,120,21&apos;" pushedimage="file=&apos;left_list_download.png&apos; source=&apos;120,0,180,21&apos;" />
+          <Button name="collapse" text="收缩" visible="false" padding="0,2,0,0" width="60" height="21" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;left_list_download.png&apos; source=&apos;0,0,60,21&apos;" hotimage="file=&apos;left_list_download.png&apos; source=&apos;60,0,120,21&apos;" pushedimage="file=&apos;left_list_download.png&apos; source=&apos;120,0,180,21&apos;" />
+        </Container>
+      </VerticalLayout>
+    </HorizontalLayout >
+      <HorizontalLayout height="30" bkcolor="#FF0000FF">
+        
+      </HorizontalLayout>
+      <TabLayout name="juji" bkcolor="#FF00FF00">
+        
+      </TabLayout>
+    </VerticalLayout>
+</DownloadContainer>
+</Window>

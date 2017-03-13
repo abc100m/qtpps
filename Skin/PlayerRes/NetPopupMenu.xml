@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="94,66">
+  <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+  <VerticalLayout name="VerticalLayoutUI1"  enabled="false" bkimage="file=&apos;PlayerRes/player_lan_tip.png&apos; corner=&apos;3,3,3,3&apos;" bkcolor="#FF000000">
+    <Container name="ContainerUI1" >
+      <VerticalLayout name="VerticalLayoutUI2">
+        <!--<Label name="labelui1" visible="false" enabled="false" mouse="false" />-->
+      </VerticalLayout>  
+    </Container>
+  </VerticalLayout>
+</Window>

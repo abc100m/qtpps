@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="94,50">
+    <Font name="宋体" size="13" bold="false" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+  <VerticalLayout name="listHeader">
+    <Button height="25" name="smallfont" text="小字" textcolor="#FFFFFFFF"  align="left" textpadding="15,0,0,0"
+            normalimage="file='turn_bg.png' source='0,0,51,20'"
+           hotimage="file='turn_bg.png' source='0,20,51,40'"
+           pushedimage="file='turn_bg.png' source='0,40,51,60'"/>
+    <Button height="25" name="bigfont" text="大字" textcolor="#FFFFFFFF" align="left" textpadding="15,0,0,0"
+            normalimage="file='turn_bg.png' source='0,0,51,20'"
+           hotimage="file='turn_bg.png' source='0,20,51,40'"
+           pushedimage="file='turn_bg.png' source='0,40,51,60'"/>
+  </VerticalLayout>
+</Window>

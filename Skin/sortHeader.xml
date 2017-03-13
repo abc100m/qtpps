@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="94,75">
+    <Font name="宋体" size="13" bold="false" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+  <VerticalLayout name="sortHeader" >
+    <Button name="PeopleSort" height="25" text="观众" textcolor="#FFFFFFFF" align="left" textpadding="20,0,0,0"
+             normalimage="file='turn_bg.png' source='0,60,51,80' corner='25,0,0,0' "
+           hotimage="file='turn_bg.png' source='0,80,51,100' corner='25,0,0,0' "
+           pushedimage="file='turn_bg.png' source='0,100,51,120' corner='25,0,0,0' "/>
+    <Button name="ScoreSort" height="25" text="评分" textcolor="#FFFFFFFF" align="left" textpadding="20,0,0,0"
+             normalimage="file='turn_bg.png' source='0,0,51,20'"
+           hotimage="file='turn_bg.png' source='0,20,51,40'"
+           pushedimage="file='turn_bg.png' source='0,40,51,60'"/>
+    <Button name="TimeSort" height="25" text="时间" textcolor="#FFFFFFFF"  align="left" textpadding="20,0,0,0"
+             normalimage="file='turn_bg.png' source='0,0,51,20'"
+           hotimage="file='turn_bg.png' source='0,20,51,40'"
+           pushedimage="file='turn_bg.png' source='0,40,51,60'"/>
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="253,95" roundcorner="4,4">
+  <Font name="宋体" size="12" bold="false" italic="false" default="true"/>
+  <TabLayout name="DownloadNotify" extpand="false" bkcolor="##FF181818" >
+          <VerticalLayout>
+            <HorizontalLayout height="22">
+              <Control />
+              <Button name="Close" padding="0,5,5,0" width="11" height="11" normalimage="file=&apos;left_list_del.png&apos; source=&apos;0,0,11,11&apos;" hotimage="file=&apos;left_list_del.png&apos; source=&apos;11,0,22,11&apos;" pushedimage="file=&apos;left_list_del.png&apos; source=&apos;22,0,33,11&apos;"/>
+            </HorizontalLayout>
+            <HorizontalLayout  >
+              <Label padding="10,0,5,5" bkimage="ConfigRes\soft_setting_txt_icon.png" width="30" height="30"/>
+              <VerticalLayout>
+                <RichEdit name="RichEditTip" height="50" enabled="false" wantreturn="true" padding="15,0,10,0" textcolor="FFFFFFFF" />
+              </VerticalLayout>
+            </HorizontalLayout>
+            <Label name="line" bkimage="updowntips_line.png" height="2" />
+          </VerticalLayout>
+  </TabLayout>
+</Window>

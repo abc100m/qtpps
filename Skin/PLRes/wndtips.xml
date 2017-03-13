@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="340,356">
+    <HorizontalLayout bordersize="1" width="340" height="340" bkcolor="#FFB0B0B0">
+        <Control bordersize="1" width="10" />
+        <VerticalLayout bordersize="1" bkcolor="#FF000000">
+            <Control bordersize="1" height="5" />
+            <HorizontalLayout name="layToolbar" bordersize="1" height="25">
+                <Button name="btnPlay" text="播放" bordersize="1" width="60" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="btnFavorite" text="收藏" bordersize="1" width="60" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="btnDownload" text="下载" bordersize="1" width="60" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="btnComment" text="评论" bordersize="1" width="60" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+            <Control name="ctlSeperator" bordersize="1" height="3" />
+            <HorizontalLayout name="layIntroduce" bordersize="1" width="320" height="210">
+                <Control name="lblThumb" bordersize="1" width="107" height="143" padding="10,15,10,0" />
+                <VerticalLayout name="layIntroItems" bordersize="1">
+                    <HorizontalLayout bordersize="1" height="25" padding="0,5,0,0">
+                        <Label name="lblTitle" text="频道标题" bordersize="1" height="25" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" />
+                        <Label name="lblScore" text="0.0" bordersize="1" width="30" padding="0,3,0,0" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" align="center" />
+                        <Label text="分" bordersize="1" width="25" height="25" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+                    </HorizontalLayout>
+                    <HorizontalLayout bordersize="1" height="25">
+                        <Label text="导演:" bordersize="1" width="40" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" />
+                        <Label name="lblDirector" text="张艺谋" bordersize="1" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" />
+                        <Label text="年份:" bordersize="1" width="40" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" />
+                        <Label name="lblYear" text="2012" bordersize="1" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" />
+                    </HorizontalLayout>
+                    <HorizontalLayout bordersize="1" height="25">
+                        <Label text="演员:" bordersize="1" width="40" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" />
+                        <Label name="lblArts" text="周润发" bordersize="1" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+                    </HorizontalLayout>
+                    <HorizontalLayout bordersize="1" height="25">
+                        <Label text="类型:" bordersize="1" width="40" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" />
+                        <Label name="lblType" text="武侠|历史" bordersize="1" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" />
+                    </HorizontalLayout>
+                    <HorizontalLayout bordersize="1" height="25">
+                        <Label text="剧情:" bordersize="1" width="40" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" />
+                        <Label name="lblSynopsis0" text="简介" bordersize="1" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" />
+                    </HorizontalLayout>
+                    <HorizontalLayout bordersize="1" height="25">
+                        <Label name="lblSynopsis1" bordersize="1" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" />
+                    </HorizontalLayout>
+                    <HorizontalLayout bordersize="1" height="25">
+                        <Label name="lblSynopsis2" bordersize="1" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+                    </HorizontalLayout>
+                    <HorizontalLayout bordersize="1" height="25">
+                        <Control bordersize="1" />
+                        <Button name="btnMoreSynopsis" text="更多" bordersize="1" width="60" height="23" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+                    </HorizontalLayout>
+                </VerticalLayout>
+            </HorizontalLayout>
+            <VerticalLayout name="layComments" bordersize="1" height="110">
+                <Label name="lblComment0" text="评价" bordersize="1" height="25" padding="0,5,0,0" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+                <Label name="lblComment1" bordersize="1" height="25" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+                <Label name="lblComment2" bordersize="1" height="25" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+                <HorizontalLayout bordersize="1" height="25">
+                    <Control bordersize="1" />
+                    <Button name="btnMoreComments" text="更多" bordersize="1" width="60" height="23" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+                </HorizontalLayout>
+            </VerticalLayout>
+            <Control bordersize="1" />
+        </VerticalLayout>
+        <Control bordersize="1" width="10" />
+    </HorizontalLayout>
+</Window>

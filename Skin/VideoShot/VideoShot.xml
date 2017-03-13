@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="450,356" caption="0,0,0,36" roundcorner="4,4" >
+  <Default name="VScrollBar" value="button1normalimage=&quot;file='LoginRes/scrollbar_w.png' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='LoginRes/scrollbar_w.png' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='LoginRes/scrollbar_w.png' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='LoginRes/scrollbar_w.png' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='LoginRes/scrollbar_w.png' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='LoginRes/scrollbar_w.png' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='LoginRes/scrollbar_w.png' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='LoginRes/scrollbar_w.png' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='LoginRes/scrollbar_w.png' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='LoginRes/scrollbar_w.png' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='LoginRes/scrollbar_w.png' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='LoginRes/scrollbar_w.png' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='LoginRes/scrollbar_w.png' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='LoginRes/scrollbar_w.png' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='LoginRes/scrollbar_w.png' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='LoginRes/scrollbar_w.png' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='LoginRes/scrollbar_w.png' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='LoginRes/scrollbar_w.png' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='LoginRes/scrollbar_w.png' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='LoginRes/scrollbar_w.png' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <VerticalLayout name="VideoShotCon"  bkimage="file=&apos;soft_windows_bg.png&apos; corner=&apos;100,40,10,10&apos; mask=&apos;#FFFF00FF&apos;">
+
+
+    <Label text="截图保存" align="left" width="85" float="true" pos="70,11,0,0" height="50" textcolor="#c0c0c0"/>
+
+    <Button name="closebtn" width="38" height="30" float="true" pos="412,1,0,0" tooltip="关闭"
+         normalimage="file='soft_close.png' source='0,0,38,30'"
+         hotimage="file='soft_close.png' source='38,0,76,30'"
+         pushedimage="file='soft_close.png' source='76,0,114,30'"/>
+    
+    
+
+    <HorizontalLayout height="189"  pos="18,44,5,10"  float="true"  width="413"
+                      bkimage="file=&apos;videoshot/soft_preview.png&apos; corner=&apos;10,40,10,10&apos; mask=&apos;#FFFF00FF&apos;">
+
+
+
+    </HorizontalLayout>
+
+    <Label  name="ShotPicture" float="true" pos="53,61,0,0" width="350" height="160"  bkcolor="0xffff0000"/>
+
+
+ 
+      <Label text="目录："  pos="30,249,0,0" float="true" width="70" height="22"  textcolor="#ff828282"/>
+
+
+    <Combo name="cboFolder"       width="290"   pos="66,242,0,0" float="true" height="26"  textpadding="30,2,60,2"
+         normalimage="file=&apos;VideoShot/soft_input_3-133.png&apos;  source=&apos;0,0,50,26&apos; corner=&apos;5,3,23,3&apos; mask=&apos;#FFFF00FF&apos;"
+        
+
+            hotimage="file=&apos;VideoShot/soft_input_3-133.png&apos; source=&apos;50,0,100,26&apos; corner=&apos;5,3,23,3&apos; mask=&apos;#FFFF00FF&apos;"
+            pushedimage="file=&apos;VideoShot/soft_input_3-133.png&apos; source=&apos;100,0,150,26&apos; corner=&apos;5,3,23,3&apos; mask=&apos;#FFFF00FF&apos;"
+
+           />
+      <Edit name="editFolder"  float="true" pos="68,244,0,0"  width="260" height="22" />
+
+      <Button name="folderBrowser" textcolor="#ff2b2b2b" text="浏览..." width="67"  float="true" pos="364,242,0,0"   height="26"  tooltip="点击这里选择目录"
+            normalimage="file='videoshot/soft_butten_3.png' source='0,0,67,26'"
+            hotimage="file='videoshot/soft_butten_3.png' source='67,0,134,26'"
+            pushedimage="file='videoshot/soft_butten_3.png' source='134,0,201,26'" />
+
+      <Label text="文件名：" pos="18,284,0,0" float="true" width="60" height="22"  textcolor="#ff828282"/>
+
+
+      <Edit name="editFileName"    pos="66,276,0,0" float="true" width="243" height="26"   bordersize="1"  textcolor="0x0"
+ bkimage="file=&apos;Videoshot/soft_input_1.png&apos; source=&apos;0,0,50,26&apos; corner=&apos;4,4,4,4&apos;" 
+       nativebkcolor="#ffffffff"  bkcolor="#ffffffff"/>
+
+
+      <Label text="类型："  pos="320,284,0,0" float="true" width="40" height="22" textcolor="#ff828282"/>
+
+
+      <Combo name="cboFileKind"   pos="359,276,0,0" float="true" width="74" height="26" 
+         normalimage="file=&apos;VideoShot/soft_input_3-133.png&apos;  source=&apos;0,0,50,26&apos; corner=&apos;5,3,23,3&apos; mask=&apos;#FFFF00FF&apos;"
+        
+
+            hotimage="file=&apos;VideoShot/soft_input_3-133.png&apos; source=&apos;50,0,100,26&apos; corner=&apos;5,3,23,3&apos; mask=&apos;#FFFF00FF&apos;"
+            pushedimage="file=&apos;VideoShot/soft_input_3-133.png&apos; source=&apos;100,0,150,26&apos; corner=&apos;5,3,23,3&apos; mask=&apos;#FFFF00FF&apos;"
+
+           />
+
+
+
+      <CheckBox name="accelKey"   pos="16,321,0,0" float="true" width="200" height="22" text="使用快捷键(Ctrl+I)时不再询问" />
+
+
+      
+      <Button name="btnOK"    pos="288,312,0,0" float="true" width="67" height="26"
+            normalimage="file='videoshot/soft_butten_1.png' source='0,0,67,26'"
+            hotimage="file='videoshot/soft_butten_1.png' source='67,0,134,26'"
+            pushedimage="file='videoshot/soft_butten_1.png' source='134,0,201,26'" />
+    
+
+      <Button name="btnCancel"    pos="365,312,0,0" float="true" width="67" height="26"
+            normalimage="file='videoshot/soft_butten_2.png' source='0,0,67,26'"
+            hotimage="file='videoshot/soft_butten_2.png' source='67,0,134,26'"
+            pushedimage="file='videoshot/soft_butten_2.png' source='134,0,201,26'" />
+
+
+
+  </VerticalLayout>
+</Window>

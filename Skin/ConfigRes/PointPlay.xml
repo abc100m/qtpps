@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+  <Font name="宋体" size="12" bold="false" italic="false" default="true"/>
+  <Font name="新宋体" size="12" bold="true" italic="false" />
+  <Container name="ContainerUI1"  text="点播服务" width="400" height="400" inset="2,2,2,2">
+    <Label font="1" name="text" text="点播服务" float="true" pos="20,15,0,0" width="55" height="22" />
+    <Label name="LabelUI1"   text="" float="true" pos="80,20,0,0" width="320" height="2" bkimage="file= &apos;ConfigRes/RightTitleBar.png&apos; corner='1,1,1,1' xtiled='false' ytiled='true'" />
+
+    <Container name="ContainerUI2" float="true" pos="11,30,0,0" width="364" height="104" >
+            <Label float="true" pos="0,18,0,0" width="364" height="85" name="bk" bkimage="file='' corner='1,1,1,1'" />
+            <Label bkcolor="#FFe0e0e0" name="LabelUI2" text=" 缓存文件管理：" float="true" pos="0,22,0,0" width="85" height="22" textcolor="#FF000000" disabledtextcolor="#FF000000" />
+        </Container>
+        <Radio  name="radioAutoManager" float="true" pos="29,71,0,0" width="273" height="26" text="自动管理缓存文件" />
+        <Radio  name="radioCatchPath"   float="true" pos="29,97,0,0" width="327" height="50" text="手动设置缓存文件路径" />
+        <Edit   name="editpath" float="true" pos="48,118,0,0" width="250" height="20" bkcolor="#FFFFFFFF" bordercolor="#FFdb9e6e" textpadding="4,3,10,3" textcolor="#FF000000" disabledtextcolor="#FF000000" />
+        <Button name="ButtonBrowser" text="" float="true" pos="290,118,0,0" width="64" height="20" textcolor="#FF000000" disabledtextcolor="#FF000000" align="center" normalimage="file=&apos;ConfigRes/changefolder.png&apos; source=&apos;0,0,64,20&apos;" hotimage="file=&apos;ConfigRes/changefolder.png&apos; source=&apos;64,0,128,20&apos;" pushedimage="file=&apos;ConfigRes/changefolder.png&apos; source=&apos;128,0,192,20&apos;" disabledimage="file=&apos;ConfigRes/changefolder.png&apos; source=&apos;192,0,256,20&apos;" />
+
+        <!--<Container name="ContainerUI3" float="true" pos="18,140,0,0" width="364" height="80">
+            <Label float="true" pos="0,18,0,0" width="364" height="60" name="bk" bkimage="file='' corner='1,1,1,1'" />
+            <Label name="LabelUI5" text=" 网络缓冲:" bkcolor="#FFe0e0e0" float="true" pos="5,12,0,0" width="65" height="22" textcolor="#FF000000" disabledtextcolor="#FF000000" />
+        </Container>
+        <Radio name="radioDefaultCatch" float="true" pos="30,172,0,0" width="273" height="26"  text="使用默认缓冲(推荐)" />
+        <Radio name="radioCurrentCatch" float="true" pos="30,195,0,0" width="273" height="26"  text="缓冲" />
+        <Label name="abc"  text="秒的内容" float="true" pos="110,197,0,0" width="111" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit  name="editRefTime"   text="" float="true" pos="76,193,0,0" width="30" height="20" bordercolor="#FFdb9e6e" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="left" />-->
+
+        <CheckBox name="checkrunnetwork" float="true" pos="18,145,0,0" width="364" height="26" text="允许启动PPS网络服务进程" />     
+        <CheckBox name="checkgotoend" float="true" pos="18,170,0,0" width="364" height="26" text="始终跳过片头片尾" />
+    </Container>
+</Window>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <HorizontalLayout>
+    <Button name="checkrange" text="" visible="false" float="true" pos="2, 0, 15, 13"
+        normalimage="file='checkboxpicture.png' source='52,0,65,13'" hotimage="file='checkboxpicture.png' source='65,0,78,13'"
+        pushedimage="file='checkboxpicture.png' source='78,0,91,13'" />
+    <Button name="normalrange" text="" float="true" pos="2, 0, 15, 13" 
+          normalimage="file='checkboxpicture.png' source='0,0,13,13'" hotimage="file='checkboxpicture.png' source='13,0,26,13'"
+          pushedimage="file='checkboxpicture.png' source='39,0,52,13'" />
+    <Button name="textrange" text="" float="true" align="left" pos="17, 0, 400, 13" selectedtextcolor="#FF000000" textcolor="#FF000000"/>
+  </HorizontalLayout>
+</Window>

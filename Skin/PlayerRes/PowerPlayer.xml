@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+  <HorizontalLayout name="PPlayerCon" bordersize="0" bkcolor="#FF000000">
+    <VerticalLayout bordersize="1">
+      <PPlayerWndUIKind name="PPlayerWndUI" bordersize="0">
+        <Button name="logo" bordersize="0" float="true" width="350" height="170" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;PlayerRes/new_logo_normal.png&apos;" hotimage="file=&apos;PlayerRes/new_logo_hover.png&apos;" pushedimage="file=&apos;PlayerRes/new_logo_hover.png&apos;" />
+        <ActiveX name="flash" float="true" visible="false" />
+      </PPlayerWndUIKind>
+      <CtrlPanlUIKind name="CtrlPanlUI" bordersize="0" height="51"  blcolor="#FFff0000">
+      </CtrlPanlUIKind>
+    </VerticalLayout>
+
+  </HorizontalLayout>
+</Window>

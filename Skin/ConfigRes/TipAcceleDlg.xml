@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="265,85" caption="0,0,0,38" roundcorner="4,4">
+    <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+    <Font name="新宋体" size="12" bold="true" italic="false" />
+    <VerticalLayout name="TipAcceleDlgCon" bordersize="1" width="320" height="180" bkimage="file=&apos;ConfigRes/ppsbooster_mini_bg.png&apos; corner=&apos;1,1,1,1&apos; ">
+        <Button name="DlgRange" float="true" pos="0,0,0,0" width="320" height="180" />
+        <Label bordersize="1" float="true" pos="5,6,0,0" width="60" height="60" bkimage="file=&apos;ConfigRes/ppsbooster_icon.png&apos; corner=&apos;1,1,1,1&apos; " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Button name="ShowAcceleDlg" text="显示加速界面" bordersize="1" float="true" pos="170,64,0,0" width="97" height="17" textcolor="#FFcbaa78" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Label name="TextTop" text="" bordersize="1" float="true" pos="60,19,0,0" width="185" height="18" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" />
+        <Label name="TextNext" text="" bordersize="1" float="true" pos="60,39,0,0" width="148" height="18" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" />
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <Font name="宋体" size="12" bold="false" italic="false" default="true"/>
+    <Font name="新宋体" size="12" bold="true" italic="false" />
+    <Container name="ContainerRenderMode" text="音频输出" width="400" height="400" inset="2,2,2,2">
+      <Label font="1" name="text" text="音频输出" float="true" pos="20,15,0,0" width="50" height="22" />
+      <Label name="LabelUI1" text="" float="true" pos="80,20,0,0" width="380" height="2"
+             bkimage="file= &apos;ConfigRes/RightTitleBar.png&apos; corner='1,1,1,1' xtiled='false' ytiled='true'" />
+      <Container name="ContainerUI2" float="true" pos="15,43,0,0" width="258" height="27">
+        <Label name="LabelUI2" text="注:该设置下次播放的时候生效" float="true" pos="3,3,0,0" width="249" height="20" textcolor="#FF000000" disabledtextcolor="#FF000000" />
+      </Container>
+      <Container name="ContainerUI3" float="true" pos="5,70,0,0" width="294" height="27">
+        <Label name="TextUI1" text="输出设备:" float="true" pos="3,0,0,0" width="67" height="20" textpadding="0,3,0,0" textcolor="#FF000000" disabledtextcolor="#FF000000" align="right" />
+      </Container>
+
+      <Combo name="comboaudio" float="true" pos="80,70,0,0" width="274" height="22"
+          normalimage="file='ConfigRes/Combo_nor.bmp' corner='2,2,24,2'"
+          hotimage="file='ConfigRes/Combo_over.bmp' corner='2,2,24,2'"
+          pushedimage="file='ConfigRes/Combo_over.bmp' corner='2,2,24,2'" textpadding="1,1,1,1"  />
+
+      <Container name="ContainerUI4" float="true" pos="170,110,0,0" width="207" height="178">
+        <Label name="LabelUI3" float="true" pos="2,4,0,0" width="192" height="192"
+               bkimage="file=&apos;ConfigRes/speakers.png&apos; corner=&apos;4,4,4,4&apos; mask=&apos;#FFFF00FF&apos; "
+               textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+      </Container>
+    </Container>
+ 
+</Window>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Window  >
+  <VerticalLayout visible="false">
+
+    <HorizontalLayout height="8"/>
+
+    <HorizontalLayout>
+      <Label />
+      <Button name="eraseUser" width="10" height="10"
+  normalimage="file='left_list_del.png' source='0,0,10,10'"
+   hotimage="file='left_list_del.png' source='11,0,21,10'"
+   pushedimage="file='left_list_del.png' source='22,0,32,10'"   />
+      <Label width="7"/>
+    </HorizontalLayout>
+
+    <HorizontalLayout height="2" />
+
+  </VerticalLayout>
+</Window>

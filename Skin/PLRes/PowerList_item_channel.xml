@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <PowerListElement bkcolor="#FF111111" height="22">
+        <VerticalLayout bordersize="1">
+            <HorizontalLayout bordersize="1">
+                <HorizontalLayout bordersize="1" width="18" />
+                <LabelEx bordersize="0" endellipsis="true" name="nickname" textcolor="#FFA0A0A0" />
+                <Label name="num"  width="50" padding="0,5,4,3" textcolor="#FFA0A0A0" disabledtextcolor="#FFFFFFFF" align="right" font="1" />
+                <HorizontalLayout bordersize="1" width="5" />
+            </HorizontalLayout>
+        </VerticalLayout>
+    </PowerListElement>
+</Window>

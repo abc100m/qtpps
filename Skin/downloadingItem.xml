@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="240,90">
+    <HorizontalLayout name="layRoot" bordersize="1" width="200" height="90">
+        <VerticalLayout name="layThumb" bordersize="1" width="70" padding="10,0,0,0">
+            <Control bordersize="1" />
+          <PicControl name="picture" bordersize="1" width="60" height="80" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Control bordersize="1" />
+        </VerticalLayout>
+        <VerticalLayout name="layIntroduce" bordersize="1" padding="5,0,0,0">
+            <Label name="nickname" text="频道的标题" bordersize="1" height="22" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+            <HorizontalLayout bordersize="1" height="22">
+                <Label text="类型:" bordersize="1" width="45" height="22" textcolor="#00A4A0A0" disabledtextcolor="#FFA7A6AA" />
+                <Label name="lblType" text="12:12" bordersize="1" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" height="22">
+                <Progress name="prgPercent" bkcolor="#FF505050" text="0" bordersize="1" height="12" padding="0,5,0,5" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" endellipsis="true" foreimage="bg.png" min="0" max="100" value="0" hor="true" />
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" height="22">
+                <Button name="download_stop" text="暂停" bordersize="1" width="50" height="22" bkimage="file=&apos;CommonRes\btnYellow.png&apos; corner=&apos;3,0,4,22&apos;" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Control bordersize="1" width="5" />
+                <Button name="download_cancel" text="取消" bordersize="1" width="50" height="22" bkimage="file=&apos;CommonRes\btnYellow.png&apos; corner=&apos;3,0,4,22&apos;" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+            <Control bordersize="1" />
+        </VerticalLayout>
+        <Button name="btnClose" bordersize="1" width="8" height="8" padding="0,5,5,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;commonRes/btnMiniColse.png&apos; source=&apos;0,0,8,8&apos;" hotimage="file=&apos;commonRes/btnMiniColse.png&apos; source=&apos;8,0,16,8&apos;" pushedimage="file=&apos;commonRes/btnMiniColse.png&apos; source=&apos;16,0,24,8&apos;" />
+    </HorizontalLayout>
+</Window>

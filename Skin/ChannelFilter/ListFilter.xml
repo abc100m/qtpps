@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="532,188" caption="0,0,0,100" roundcorner="5,5">
+    <HorizontalLayout name="layRoot" bordersize="1" width="532" height="188" bkcolor="#FF1C1C1C">
+        <HorizontalLayout name="layMain" bordersize="1" padding="10,10,1,1">
+            <VerticalLayout name="layType" bordersize="1" padding="0,0,3,0">
+                <VerticalLayout name="layTypeRow0" bordersize="1" height="22" padding="0,0,0,3">
+                    <Button name="lblType" text="a1" textcolor="#FF828282" bordersize="1" height="15" mouse="false" disabledtextcolor="#FFA7A6AA" align="right" />
+                </VerticalLayout>
+            </VerticalLayout>
+            <VerticalLayout name="layValue" bordersize="1" maxwidth="430">
+                <VerticalLayout name="layValueRow0" bordersize="1" height="22" padding="0,0,0,3">
+                    <HorizontalLayout name="layValueLine0" bordersize="1" padding="0,0,0,2" minheight="22">
+                        <Option name="btnValue" text="All"  textcolor="#FFBABABA" bordersize="1" width="40" height="18" textpadding="4,0,4,0" hottextcolor="#FF338DFB"  pushedtextcolor="#FFFFFFFF" selectedtextcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" selectedimage="ChannelFilter/selected.png"/>
+                    </HorizontalLayout>
+                    <Option name="btnSelected" group="999" visible="false" bordersize="1" float="true" pos="3,0,0,0" width="18" height="15" normalimage="file=&apos;ChannelFilter/FilterItemSelected.png&apos;" />
+                </VerticalLayout>
+            </VerticalLayout>
+        </HorizontalLayout>
+        <VerticalLayout name="layRight" bordersize="1" width="25">
+            <Button name="btnClose" padding="5,10,0,0" width="11" height="11" normalimage="file='left_list_del.png' source='0,0,11,11'" hotimage="file='left_list_del.png' source='11,0,22,11'" pushedimage="file='left_list_del.png' source='22,0,33,11'" />
+        </VerticalLayout>
+    </HorizontalLayout>
+</Window>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <ListContainerElement>
+    <VerticalLayout>
+      <VerticalLayout height="20">
+        <HorizontalLayout>
+ 
+          <VerticalLayout >
+            <HorizontalLayout width="330">
+              
+              <Label name="nickname" align="left" bordersize="0" width="120" textcolor="#FF000000" disabledtextcolor="#FF808080" />
+
+              <VerticalLayout >
+                <Label  height="4" />
+
+                <!--<Option   align="left" height="13" width="13" selected="false" group="false"
+              bkimage="file='ConfigRes/SettingFile.bmp' source='13,0,26,13'"  selectedimage="file='ConfigRes/SettingFile.bmp' source='39,0,52,13'"  />-->
+
+              </VerticalLayout>
+             
+            </HorizontalLayout>
+          </VerticalLayout>
+        </HorizontalLayout>
+      </VerticalLayout>
+    </VerticalLayout>
+  </ListContainerElement>
+</Window>

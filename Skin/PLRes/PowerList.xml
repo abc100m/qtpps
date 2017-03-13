@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  
+
+  <VerticalLayout   inset="2,2,2,2" bkcolor="0xFF1B1B1B">
+
+
+    <HorizontalLayout height="25">
+
+
+      <Label text =" 在线视频(共3568720个视频)"  bordersize="0" textcolor="#FFCFCFCF" disabledtextcolor="#FFFFFFFFF" />
+    </HorizontalLayout>
+
+
+    <HorizontalLayout  name="PLContainer">
+         <PowerListTree name="power_list_tree" header="hidden" itemshowhtml="true" vscrollbar="true"  />
+    </HorizontalLayout>
+   
+
+      
+  </VerticalLayout>
+</Window>
+

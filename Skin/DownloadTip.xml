@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="253,95" roundcorner="4,4">
+  <TabLayout name="DownloadNotify" extpand="false" bkcolor="#FF181818" >
+          <VerticalLayout>
+            <HorizontalLayout height="25">
+              <Control />
+              <Button name="Close" padding="0,5,5,0" width="7" height="7" normalimage="file=&apos;tip_gg_close.png&apos; source=&apos;0,0,7,7&apos;" hotimage="file=&apos;tip_gg_close.png&apos; source=&apos;7,0,14,7&apos;" pushedimage="file=&apos;tip_gg_close.png&apos; source=&apos;14,0,21,7&apos;"/>
+            </HorizontalLayout>
+            <HorizontalLayout  >
+              <Label padding="10,0,5,5" bkimage="download_icon.png" width="30" height="30"/>
+              <VerticalLayout>
+                <RichEdit name="RichEditTip" height="41" enabled="false" wantreturn="true" padding="9,0,10,0" textcolor="ffbbbbbb" />
+              </VerticalLayout>
+            </HorizontalLayout>
+            <Label name="line" bkimage="updowntips_line.png" height="2" />
+            <HorizontalLayout height="30">
+              <Control />
+              <Button name="Detail" textcolor="#ff148efa" text="查看" width="40" />
+              <Label padding="0,9,0,9" bkcolor="#FF909090" width="1" />
+              <Button name="Pause" textcolor="#ff148efa" text="暂停" width="40" />
+              <Control width="7"/>
+            </HorizontalLayout>
+          </VerticalLayout>
+
+          <VerticalLayout>
+            <HorizontalLayout height="25">
+              <Control />
+              <Button name="Close" padding="0,5,5,0" width="7" height="7" normalimage="file=&apos;tip_gg_close.png&apos; source=&apos;0,0,7,7&apos;" hotimage="file=&apos;tip_gg_close.png&apos; source=&apos;7,0,14,7&apos;" pushedimage="file=&apos;tip_gg_close.png&apos; source=&apos;14,0,21,7&apos;"/>
+            </HorizontalLayout>
+            <HorizontalLayout>
+              <Label padding="10,0,5,5" bkimage="download_complete_icon.png" width="30"  height="30"/>
+              <VerticalLayout>
+                <RichEdit name="RichEditTip2" height="41" enabled="false" wantreturn="true" padding="9,0,10,0" textcolor="ffbbbbbb" />
+              </VerticalLayout>
+            </HorizontalLayout>
+            <Label name="line" height="2" bkimage="updowntips_line.png"/>
+            <HorizontalLayout  height="30">
+              <Control />
+              <Button name="LookDetail" textcolor="ff148efa" text="查看" width="40" />
+              <Label padding="0,9,0,9" bkcolor="#FF909090" width="1" />
+              <Button name="Play" textcolor="ff148efa" text="播放" width="40" />
+              <Control width="7"/>
+            </HorizontalLayout>
+          </VerticalLayout>
+  </TabLayout>
+</Window>

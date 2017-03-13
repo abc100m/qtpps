@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="378,255" caption="0,0,0,38" roundcorner="4,4">
+    <VerticalLayout bordersize="1" bkimage="file=&apos;soft_windows_bg.png&apos; corner=&apos;70,38,5,5&apos; ">
+        <HorizontalLayout bordersize="1" height="28" inset="2,2,2,0">
+            <Button name="dlgname" text="属性" bordersize="1" float="true" pos="52,1,0,0" width="54" height="30" textcolor="#FF9F9F9F" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Control bordersize="1" width="340" height="26" />
+            <Button name="closebtn" bordersize="1" width="38" height="30" maxheight="30" maxwidth="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;soft_close.png&apos; source=&apos;0,0,38,30&apos;" hotimage="file=&apos;soft_close.png&apos; source=&apos;38,0,76,30&apos;" pushedimage="file=&apos;soft_close.png&apos; source=&apos;76,0,114,30&apos;" />
+        </HorizontalLayout>
+      <HorizontalLayout padding="20,25,20,0" height="20">
+        <Label text="频道名称:" width="60" textcolor="#FF858585" />
+        <Label name="channellabel" textcolor="#FF2E2E2E" endellipsis="true" />
+      </HorizontalLayout>
+      <HorizontalLayout padding="20,5,20,0" height="20">
+        <Label text="文件大小:" width="60" textcolor="#FF858585" />
+        <Label name="filesize" textcolor="#FF2E2E2E" endellipsis="true" />
+      </HorizontalLayout>
+      <HorizontalLayout padding="20,5,20,0" height="20">
+        <Label text="下载完成:" width="60" textcolor="#FF858585" />
+        <Label name="progress" textcolor="#FF2E2E2E" endellipsis="true" />
+      </HorizontalLayout>
+      <HorizontalLayout padding="20,5,20,0" height="20">
+        <Label text="时    长:" width="60" textcolor="#FF858585" />
+        <Label name="timelength" textcolor="#FF2E2E2E" endellipsis="true" />
+      </HorizontalLayout>
+      <HorizontalLayout padding="20,5,20,0" height="20">
+        <Label text="码    率:" width="60" textcolor="#FF858585" />
+        <Label name="bits" textcolor="#FF2E2E2E" endellipsis="true" />
+      </HorizontalLayout>
+      <HorizontalLayout padding="20,5,20,0" height="20">
+        <Label text="文件位置:" width="60" textcolor="#FF858585" />
+        <Label name="fileposition" textcolor="#FF2E2E2E" endellipsis="true" />
+      </HorizontalLayout>
+        <Button float="true" name="posfile" text="定位文件" pos="210,210,0,0" width="67" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;134,0,201,36&apos;" />
+        <Button float="true" name="cancelbtn" text="确定" pos="283,210,0,0" width="67" height="26" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;134,0,201,36&apos;" />
+    </VerticalLayout>
+</Window>

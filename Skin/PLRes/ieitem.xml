@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <PowerListElement height="26" bkcolor="#FF111111" >
+    <VerticalLayout >
+      <HorizontalLayout >
+        <Button name="Wait" width="16" height="16" padding="20,7,0,7"
+           normalimage="file='PLRes/ie.png' source='0,0,16,16'"
+           hotimage="file='PLRes/ie.png' source='0,0,16,16'"
+           pushedimage="file='PLRes/ie.png' source='0,0,16,16'">         
+        </Button>
+        <LabelEx name="nickname" text="ie" padding="4,4,0,0" bordersize="0" textcolor="#FFEAEAEA" />
+      </HorizontalLayout>
+    </VerticalLayout>
+
+  </PowerListElement>
+</Window>

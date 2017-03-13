@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+  <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+  <Font name="新宋体" size="12" bold="true" italic="false" />
+  <VerticalLayout name="shortcutCon">
+    <VerticalLayout inset="3,0,3,3" height="30">
+      <Container text="快捷键" bordersize="1" inset="2,2,2,2">
+        <Label name="text" text="快捷键" bordersize="1" float="true" pos="20,15,0,0" width="50" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" />
+        <Label bordersize="1" float="true" pos="70,20,0,0" width="327s" height="2" bkimage="file= &apos;ConfigRes/RightTitleBar.png&apos; corner=&apos;1,1,1,1&apos; xtiled=&apos;false&apos; ytiled=&apos;true&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+      </Container>
+    </VerticalLayout>
+    <VerticalLayout  padding="20,10,0,0" height="235">
+      <List width="384" name="shortcutlist"  bordercolor="#FFcccccc" bkcolor="#FFFFFFFF" inset="1,1,1,1" itemtextpadding="10,0,0,0" itemshowhtml="true" vscrollbar="true" hscrollbar="true" headerbkimage="file='ConfigRes/list_header_bg.png'" itemalign="left" itembkcolor="#FFf7f7f7" itemlinecolor="#FFececec" itemaltbk="true" hscrollbar="false" menu="true">
+        <ListHeader padding="0,0,1,1" height="24" >
+          <ListHeaderItem text="功能"   align="left" textcolor="#FF6e6e6e" textpadding="10,0,0,0"  font="0" width="120" hotimage="file='ConfigRes/list_header_hot.png'" pushedimage="file='ConfigRes/list_header_pushed.png'" sepimage="file='ConfigRes/list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="快捷键" align="left" textcolor="#FF6e6e6e" textpadding="10,0,0,0"  font="0" width="280" hotimage="file='ConfigRes/list_header_hot.png'" pushedimage="file='ConfigRes/list_header_pushed.png'" sepimage="file='ConfigRes/list_header_sep.png'" sepwidth="1"/>
+        </ListHeader>
+      </List>
+    </VerticalLayout>
+    <VerticalLayout>
+      <Button name="btnShortCutDefault"  text="恢复默认" tooltip=""         float="true"  pos="330,10,0,0"  height="22" width="70" textcolor="#FF505050" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;134,0,201,36&apos;" />
+      <!--<Button name="btnShortCutRestore"  enabled="false" text="设置生效"     float="true"  pos="160,3,0,0"  height="22" width="80" textcolor="#00FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;134,0,201,36&apos;" />-->
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>

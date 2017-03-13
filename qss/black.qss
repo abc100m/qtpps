@@ -1,0 +1,159 @@
+MySystem
+{
+/*主窗口背景颜色*/
+background:black
+}
+
+/*菜单栏*/
+QMenuBar
+{
+     /*背景颜色：颜色渐变(x1右,y1下,x2左,y2上,stop渐变点(0-1):颜色)*/
+     background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                       stop:0 black, stop:1 gray );
+     color:white;
+ }
+
+/*菜单栏中的项目控制器*/
+QMenuBar::item 
+{
+    
+     background: transparent;/*背景透明*/
+     
+}
+
+/*选择状态*/
+QMenuBar::item:selected 
+{
+background: grey;
+}
+
+/*按下状态*/
+QMenuBar::item:pressed 
+{
+     background: black;
+
+}
+
+/*工具栏*/
+QToolBar
+{
+
+ background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                       stop:0 gray ,stop:1 black );
+ border-color:gray;
+}
+
+
+QToolBar QToolButton
+{
+color:white
+}
+
+/*工具盒标签*/
+QToolBox::tab 
+{ 
+background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0,
+                                       stop:0 white, stop:1 black);
+border-radius: 7px; /*边界半径*/
+color: darkgray; /*文字颜色*/
+} 
+
+/*工具盒标签选取状态*/
+QToolBox::tab:selected 
+{ 
+font: bold; 
+color: black; 
+ background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                       stop:0 white, stop:1 black);
+
+} 
+
+/*工具盒里的所有QFrame子孙窗口(工具盒的展开窗格是QFrame)*/
+QToolBox QFrame
+{
+background-color:rgba(100, 100, 100,100%);
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+/*标签栏的标签*/
+QTabBar::tab 
+{ 
+
+width:100;
+height:25;
+background-color:rgba(255, 255, 255,50%);
+color: white; 
+border: 3px solid black;
+border-top-left-radius: 20px;
+border-top-right-radius: 15px;
+
+} 
+
+/*标签栏的标签选取状态*/
+QTabBar::tab:selected 
+{ 
+background-color:rgba(100, 100, 100,80%);
+border: 3px solid #505050;
+font: bold; 
+
+
+} 
+
+/*标签栏里的标签部件的窗格*/
+QTabWidget::pane 
+{ 
+   
+     background-color:rgba(100, 100, 100,80%);
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+}
+ 
+
+
+/*滚动条(分水平和垂直设置状态)，默认边距为0，使用margin设上左下右边距*/
+ QScrollBar:vertical {
+      border-left: 2px solid black;/*左边角*/
+      background-color:rgba(255, 255, 255,0%);
+      width: 15px;
+
+
+     
+  }
+
+
+/*中间的柄*/
+  QScrollBar::handle:vertical {
+       background-color: qlineargradient(x1:1, y1:0, x2:0, y2:0,
+                                       stop:0 white, stop:1 black);
+      min-height: 40px;/*最小高度*/
+      border-radius:6px;/*边界半径*/
+  }
+ 
+ 
+  
+  
+/*滚动条(分水平和垂直设置状态)，默认边距为0，使用margin设上左下右边距*/
+QScrollBar:horizontal 
+{
+     border-top: 2px solid black;
+     background-color:rgba(255, 255, 255,0%);
+      height: 15px;
+}
+
+/*中间的柄*/
+QScrollBar::handle:horizontal
+ {
+  
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 white, stop:1 black);
+  min-width: 30px;
+  border-radius:6px;
+}
+
+/*滚动条内的相对页(默认为点)，add-page向下页，sub-page向上页，
+add-line向下的按钮(包括箭头)，sub-line向上的按钮(包括箭头)，
+也可以设置上下左右的箭头的状态(left-arrow,right-arrow,up-arrow,down-arrow) */
+QScrollBar::add-page,QScrollBar::sub-page,QScrollBar::add-line,QScrollBar::sub-line
+{
+background: none;/*无背景*/
+}

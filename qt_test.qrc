@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/5.png</file>
+        <file>images/17_big.jpg</file>
+        <file>images/yoda.png</file>
+        <file>images/rabbit.png</file>
+        <file>images/cyclops.png</file>
+        <file>images/star_beast.png</file>
+        <file>images/border-image-box-shadow.png</file>
+        <file>images/girl.png</file>
+        <file>images/close_button.png</file>
+        <file>images/arrow_down.png</file>
+        <file>images/medal_light.png</file>
+        <file>images/button_sprite.png</file>
+        <file>images/gongNeng.png</file>
+        <file>images/jiaSu.png</file>
+        <file>images/louDong.png</file>
+        <file>images/menZhen.png</file>
+        <file>images/muMa.png</file>
+        <file>images/qingLi.png</file>
+        <file>images/ruanJian.png</file>
+        <file>images/tiJian.png</file>
+        <file>images/xiTong.png</file>
+        <file>images/logo.png</file>
+        <file>images/status_bar.png</file>
+        <file>images/test_button.png</file>
+    </qresource>
+</RCC>

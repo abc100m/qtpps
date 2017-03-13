@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="350,135" caption="0,0,0,30" roundcorner="4,4" >
+  <Default name="VScrollBar" value="button1normalimage=&quot;file='scroll.png' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scroll.png' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scroll.png' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scroll.png' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scroll.png' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scroll.png' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scroll.png' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scroll.png' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scroll.png' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scroll.png' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scroll.png' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scroll.png' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scroll.png' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scroll.png' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scroll.png' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scroll.png' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scroll.png' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scroll.png' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scroll.png' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scroll.png' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <VerticalLayout name="commondlg" bkimage="file=&apos;soft_windows_bg.png&apos; corner=&apos;100,40,10,10&apos; mask=&apos;#FFFF00FF&apos;">
+
+    <Label text="提示" align="left" width="85" float="true" pos="70,10,0,0" height="50" textcolor="#c0c0c0"/>
+
+    <Button name="closebtn" width="38" height="30" float="true" pos="312,1,0,0" tooltip="点此退出界面"
+         normalimage="file='soft_close.png' source='0,0,38,30'"
+         hotimage="file='soft_close.png' source='38,0,76,30'"
+         pushedimage="file='soft_close.png' source='76,0,114,30'"/>
+
+
+
+    <Label   float="true" pos="52,49,0,0" height="52" width="52" bkimage="file='soft_txt_icon_1.png'"/>
+
+
+    <Label  name="TipText" float="true" pos="119,56,0,0"   text="PPS暂不支持此格式播放！"  height="13" width="220" textcolor="#ff2b2b2b"  />
+
+
+    <Button name="videoShotSure"    height="26"  text="确定" width="67" float="true" pos="141,88,0,0" textcolor="#ffffffff"
+   normalimage="file='soft_windows_butten_1.png' source='0,0,67,26'"
+   hotimage="file='soft_windows_butten_1.png' source='67,0,134,26'"
+   pushedimage="file='soft_windows_butten_1.png' source='134,0,201,26'" />
+
+
+
+
+
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="475,340" caption="0,0,0,30" roundcorner="4,4">
+    <VerticalLayout name="commondlg" bordersize="1" bkimage="file=&apos;pay_bg.png&apos; &#x0D;&#x0A;corner=&apos;100,40,10,10&apos; ">
+        <HorizontalLayout bordersize="1" height="35">
+            <Control bordersize="1"/>
+          <Button name="ChargesClose" width="16" height="16" padding="0,13,14,0"
+         normalimage="file='pay_close.png' source='0,0,16,16'"
+         hotimage="file='pay_close.png' source='16,0,32,16'"
+         pushedimage="file='pay_close.png' source='32,0,48,16'">
+          </Button>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <PowerListElement height="26" bkcolor="#FF111111" >
+    <VerticalLayout >
+      <HorizontalLayout >
+        <Button name="searchchannel" width="16" height="16" padding="5,4,0,7"
+           normalimage="file='PLRes/findpiece_icon.png' source='0,0,16,16'"
+           hotimage="file='PLRes/findpiece_icon.png' source='16,0,32,16'"
+           pushedimage="file='PLRes/findpiece_icon.png' source='16,0,32,16'">
+        </Button>
+        <!--<Label padding="4,4,0,0" width="95" bordersize="0" text="去找片查看更多“" textcolor="#FF1982C8" />-->
+        <Button name="nickname" padding="4,4,0,0"  endellipsis="true" bordersize="0" align="left" textcolor="#FF1982C8" hottextcolor="ff41caf8" pushedtextcolor="FF1982C8" />
+        <!--<Label name="nickname2" padding="4,4,4,0" width="46" bordersize="0" text="”的结果" textcolor="#FF1982C8" />-->
+      </HorizontalLayout>
+    </VerticalLayout>
+
+  </PowerListElement>
+</Window>

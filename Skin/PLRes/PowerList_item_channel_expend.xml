@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <PowerListElement height="46"  bkcolor="#FF161616">
+    <HorizontalLayout>
+      <HorizontalLayout width="20" />
+      <VerticalLayout >
+        <VerticalLayout>
+          <HorizontalLayout>
+            <LabelEx name="nickname" padding="0,0,0,0" bordersize="0" endellipsis="true" textcolor="#ffd8780c" />
+            <Label name="num" width="50" text="1111" align="right" bordersize="0" textcolor="#ffd8780c" disabledtextcolor="#FFFFFFFFF" />
+            <HorizontalLayout width="3" />
+          </HorizontalLayout>
+          <HorizontalLayout name="BtnContainer">
+                <Button name="PlayText" width="41" height="16" padding="2,3,2,3"
+                    normalimage="file='PLRes/play.png' source='0,0,41,16'"
+                    hotimage="file='PLRes/play.png' source='41,0,82,16'"
+                    pushedimage="file='PLRes/play.png' source='82,0,123,16'">
+                </Button>
+                <Button name="DownloadText" width="43" height="16" padding="2,3,2,3"
+                    normalimage="file='PLRes/Download-Text.png' source='0,0,43,16'"
+                    hotimage="file='PLRes/Download-Text.png' source='43,0,86,16'"
+                    pushedimage="file='PLRes/Download-Text.png' source='86,0,129,16'">
+                </Button>
+                                  <Button visible="false" name="Download" width="16" height="16" padding="2,3,2,3"
+                                          normalimage="file='PLRes/Download.png' source='0,0,16,16'"
+                                          hotimage="file='PLRes/Download.png' source='16,0,32,16'"
+                                          pushedimage="file='PLRes/Download.png' source='32,0,48,16'">
+                                  </Button>
+                <Button name="FavoriteText" width="43" height="16" padding="2,3,2,3"
+                     normalimage="file='PLRes/Favorite-Text.png' source='0,0,43,16'"
+                     hotimage="file='PLRes/Favorite-Text.png' source='43,0,86,16'"
+                     pushedimage="file='PLRes/Favorite-Text.png' source='86,0,129,16'">
+                </Button>
+                                  <Button visible="false" name="Favorite" width="16" height="16" padding="2,3,2,3"
+                                          normalimage="file='PLRes/Favorite.png' source='0,0,16,16'"
+                                          hotimage="file='PLRes/Favorite.png' source='16,0,32,16'"
+                                          pushedimage="file='PLRes/Favorite.png' source='32,0,48,16'">
+                                  </Button>
+                <Button name="ShareText"  width="43" height="16" padding="2,3,2,3"
+                    normalimage="file='PLRes/Share-Text.png' source='0,0,43,16'"
+                    hotimage="file='PLRes/Share-Text.png' source='43,0,86,16'"
+                    pushedimage="file='PLRes/Share-Text.png' source='86,0,129,16'">
+                </Button>
+                                    <Button  visible="false" name="Share" width="17" height="16" padding="2,3,2,3"
+                                          normalimage="file='PLRes/Share.png' source='0,0,17,16'"
+                                          hotimage="file='PLRes/Share.png' source='17,0,34,16'"
+                                          pushedimage="file='PLRes/Share.png' source='34,0,51,16'">
+                                    </Button>
+                <Button name="JudgeText" width="41" height="16" padding="2,3,2,3"
+                        normalimage="file='PLRes/Judge-Text.png' source='0,0,41,16'"
+                        hotimage="file='PLRes/Judge-Text.png' source='41,0,82,16'"
+                        pushedimage="file='PLRes/Judge-Text.png' source='82,0,123,16'">
+                </Button>
+                                    <Button visible="false" name="Judge" width="28" height="16" padding="2,3,2,3"
+                                                normalimage="file='PLRes/Judge.png' source='0,0,28,16'"
+                                                hotimage="file='PLRes/Judge.png' source='28,0,56,16'"
+                                                pushedimage="file='PLRes/Judge.png' source='56,0,84,16'">
+                                    </Button>
+                       
+          </HorizontalLayout>
+        </VerticalLayout>
+      </VerticalLayout>
+    </HorizontalLayout>
+
+  </PowerListElement>
+</Window>

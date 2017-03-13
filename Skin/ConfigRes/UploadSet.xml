@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+    <Font name="新宋体" size="12" bold="true" italic="false" />
+    <Container text="视频上传" bordersize="1" width="500" height="400" inset="2,2,2,2">
+        <Label name="text" text="视频上传" bordersize="1" float="true" pos="20,15,0,0" width="55" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" />
+        <Label bordersize="1" float="true" pos="80,20,0,0" width="320" height="2" bkimage="file= &apos;ConfigRes/RightTitleBar.png&apos; corner=&apos;1,1,1,1&apos; xtiled=&apos;false&apos; ytiled=&apos;true&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label bordersize="1" text="上传速度管理:" float="true" pos="20,40,0,0" width="100" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Radio name="radioUploadFirst" text="上传优先"   float="true" pos="30,61,0,0" width="121" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Radio name="radioCustumSpeed" text="自定义限速" float="true" pos="30,88,0,0" width="130" height="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="最大上传速度" float="true" pos="50,117,0,0" width="74" height="25"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit  name="editUploadMaxSpeed" numbertype="true" numrange="10,2048" float="true" pos="131,112,0,0" width="63" height="20" bordercolor="#FFdb9e6e" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="KB/S (10-2048)" float="true" pos="200,117,0,0" width="93" height="23"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="同时上传任务上限：" float="true" pos="20,149,0,0" width="139" height="23"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+
+        <Label float="true" pos="132,145,0,0" bkcolor="#FFffffff" width="46" height="20" bordercolor="#FFdb9e6e" />
+        <Edit name="editUploadThreadCount" float="true" pos="133,146,0,0" width="28" height="18" disabledtextcolor="#FF000000" enabled="false" />
+        <Button name="spinUploadUp" float="true" pos="162,147,0,0" width="14" height="8" bkcolor="#FF111111"
+            normalimage="file='ConfigRes\spin.png' source='1,0,15,8' corner='1,1,1,1'"
+            hotimage="file='ConfigRes\spin.png' source='19,0,33,8' corner='1,1,1,1'" />
+        <Button name="spinUploadDown" float="true" pos="162,157,0,0" width="14" height="8" bkcolor="#FF111111"
+            normalimage="file='ConfigRes\spin.png' source='1,8,15,16' corner='1,1,1,1'"
+            hotimage="file='ConfigRes\spin.png' source='19,8,33,16' corner='1,1,1,1'" />
+
+        <Label text="个(1-3)" float="true" pos="186,149,0,0" width="66" height="25"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <!--<CheckBox  name="checkStartupUpload"    text="启动后自动开始未完成的上传" float="true" pos="20,183,0,0" width="200" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />-->
+        <CheckBox  name="checkShowToolTip"      text="上传完成时提示" float="true" pos="20,183,0,0" width="200" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <CheckBox  name="checkFinishedShutdown" text="所有上传任务完成后自动关机" float="true" pos="20,210,0,0" width="200" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        
+        
+    </Container>
+</Window>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="350,136" caption="0,0,0,30" roundcorner="4,4">
+    <VerticalLayout name="commondlg" bordersize="1" bkimage="file=&apos;soft_windows_bg.png&apos; 
+      corner=&apos;100,40,10,10&apos; " inset="0,0,0,0">
+        <HorizontalLayout bordersize="1" height="28" inset="2,2,2,0">
+            <Button name="dlgname" text="提示" bordersize="1" float="true" pos="52,0,0,0" width="60" height="30" textcolor="#FF9F9F9F" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Control width="309" />
+            <Button name="closebtn" bordersize="1" width="38" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;soft_close.png&apos; source=&apos;0,0,38,30&apos;" hotimage="file=&apos;soft_close.png&apos; source=&apos;38,0,76,30&apos;" pushedimage="file=&apos;soft_close.png&apos; source=&apos;76,0,114,30&apos;" />
+        </HorizontalLayout>
+        <Label name="icon"  float="true" pos="51,49,0,0" height="52" width="52" bkimage="soft_txt_icon_1.png" />
+        <Label name="ShowTest"  width="300" height="14" text="" float="true" pos="110,56,0,0"  />
+        <Label name="ShowTest2" width="300" height="30" text="" float="true" pos="110,76,0,0"  />
+        <Button name="btnOK"     text="确定" tooltip="" float="true"  pos="110,85,0,0"  height="26" width="67" textcolor="#00FFffffff" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_1.png&apos; source=&apos;134,0,201,36&apos;" />
+        <Button name="btnCancel" text="取消" tooltip=""         float="true"  pos="184,85,0,0"  height="26" width="67" textcolor="#00FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;0,0,67,26&apos;" hotimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;67,0,134,26&apos;" pushedimage="file=&apos;ConfigRes/soft_butten_2.png&apos; source=&apos;134,0,201,36&apos;" />
+    </VerticalLayout>
+</Window>

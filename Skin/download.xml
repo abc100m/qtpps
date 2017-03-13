@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="260,400">
+   <Font name="微软雅黑" size="12" bold="false" italic="false" indexfont="skin1" /> 
+  <VerticalLayout >
+        <HorizontalLayout name="layTitle" bordersize="1" height="31" bkimage="left_tabbg.png">
+            <HorizontalLayout name="layDownload" bordersize="1" padding="10,5,0,0">
+                <Option name="optDownloading" selected="true" text="正在下载" indexfont="skin1" bordersize="1" width="87" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" align="center"  selectedimage="tab_bg.png" group="grpdownload"/>
+                <Control bordersize="1" width="5" />
+                <Option name="optDownloaded" text="已下载" indexfont="skin1" bordersize="1"  width="87" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" align="center"  selectedimage="tab_bg.png"  group="grpdownload"/>
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <TabLayout name="DownloadTabLayout" extpand="false" bkimage="tab_bg.png">
+          <VerticalLayout>
+                <HorizontalLayout bordersize="1" height="25" >
+                    <Control bordersize="1" />
+                    <Button name="btnAllStart" width="73" height="24" 
+                     normalimage="file='left_list_tab_icon_1.png' source='0,0,73,24'"
+                     hotimage="file='left_list_tab_icon_1.png' source='73,0,146,24'"
+                     pushedimage="file='left_list_tab_icon_1.png' source='146,0,219,24'">
+                    </Button>
+                    <Label bordersize="1" width="2" padding="5,0,5,0" bkimage="left_list_tab_line.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                    <Button name="btnAllPause" width="73" height="24"
+                     normalimage="file='left_list_tab_icon_2.png' source='0,0,73,24'"
+                     hotimage="file='left_list_tab_icon_2.png' source='73,0,146,24'"
+                     pushedimage="file='left_list_tab_icon_2.png' source='146,0,219,24'">
+                    </Button>
+                    <Label name="lblSperator" bordersize="1" width="2" padding="5,0,5,0" bkimage="left_list_tab_line.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                    <Button name="btnAllClear" width="73" height="24"
+                     normalimage="file='left_list_tab_icon_3.png' source='0,0,73,24'"
+                     hotimage="file='left_list_tab_icon_3.png' source='73,0,146,24'"
+                     pushedimage="file='left_list_tab_icon_3.png' source='146,0,219,24'">
+                    </Button> 
+                 </HorizontalLayout>
+                  <Label bkimage="left_list_tab_bg_line.png" height="1"/>
+                  <Downloading name="left_downloading_tree" bkcolor="#FF111111" bordersize="1" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" itemselectedimage="file=&apos;CommonRes/lstItemBack.png&apos;" itemhotimage="file=&apos;CommonRes/lstItemBack.png&apos; corner=&apos;1,1,2,2&apos;" itemdisabledimage="file=&apos;CommonRes/lstItemBack.png&apos; corner=&apos;1,0,2,0&apos;" header="hidden" vscrollbar="true">
+                    <ListHeader bordersize="1" />
+                  </Downloading>
+          </VerticalLayout>
+
+          <VerticalLayout>
+            <HorizontalLayout bordersize="1" height="26">
+                  <Control />
+                  <Control />
+                  <Button name="btnAllClear" width="73" height="24"
+                   normalimage="file='left_list_tab_icon_3.png' source='0,0,73,24'"
+                   hotimage="file='left_list_tab_icon_3.png' source='73,0,146,24'"
+                   pushedimage="file='left_list_tab_icon_3.png' source='146,0,219,24'">
+                  </Button>
+            </HorizontalLayout>
+        <Label bkimage="left_tools_bg.png" height="1"/>
+            <Downloaded name="left_downloaded_tree" bkcolor="#FF111111"  bordersize="1" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" itemselectedimage="file=&apos;CommonRes/lstItemBack.png&apos;" itemhotimage="file=&apos;CommonRes/lstItemBack.png&apos; corner=&apos;1,1,2,2&apos;" itemdisabledimage="file=&apos;CommonRes/lstItemBack.png&apos; corner=&apos;1,0,2,0&apos;" header="hidden" vscrollbar="true">
+              <ListHeader bordersize="1" />
+            </Downloaded>
+          </VerticalLayout>
+
+          <VerticalLayout bkcolor="#FF111111">
+              <Label padding="0,53,0,0" height="22" align="center" textcolor="#FF828282" text="还没有正在下载的视频" />
+          </VerticalLayout>
+
+          <VerticalLayout bkcolor="#FF111111">
+              <Label padding="0,53,0,0" height="22" align="center" textcolor="#FF828282" text="还没有已下载的视频" />
+          </VerticalLayout>
+          
+        </TabLayout>
+  </VerticalLayout>
+</Window>

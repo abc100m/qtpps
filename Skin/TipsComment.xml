@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="94,166">
+    <Font name="宋体" size="13" bold="false" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+    <VerticalLayout name="VerticalLayoutUI1" bkimage="file=&apos;tips_comm.png&apos; corner=&apos;40,35,10,40&apos;" bkcolor="#FF000000">
+        <List name="ListUI1" padding="0,8,0,4" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#00C1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FF3C3C3C" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#20000000" header="hidden">
+            <ListHeader />
+        </List>
+    </VerticalLayout>
+</Window>
